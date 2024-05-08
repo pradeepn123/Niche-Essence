@@ -174,12 +174,16 @@
         {%- if recommendations.performed and recommendations.products_count > 0 -%}
 
           <div class="complementary-products--inner">
+            {% for sample in product.metafields.custom.sample_products.value %}
+              {%- render 'product-card-small', product_small: sample, quick_add: true -%}
+            {% endfor %}
+
             {%- if block.settings.block_heading != blank -%}
               <div class="complementary-products--heading">{{ block.settings.block_heading }}</div>
             {%- endif -%}
-            {%- for recommended_product in recommendations.products limit: block.settings.product_list_limit offset: continue -%}
+            {% comment %} {%- for recommended_product in recommendations.products limit: block.settings.product_list_limit offset: continue -%}
               {%- render 'product-card-small', product_small: recommended_product, quick_add: true -%}
-            {%- endfor -%}
+            {%- endfor -%} {% endcomment %}
           </div>
           <script src="{{ 'product-recommendations.js' | asset_url }}" defer="defer"></script>
         {%- endif -%}
@@ -260,6 +264,21 @@
           </div>
         </details>
       </collapsible-row>
+    {% when 'pickup_availability' %}
+        {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
+        <pickup-availability
+          class="pickup-availability-wrapper"
+          {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %}available{% endif %}
+          data-root-url="{{ routes.root_url }}"
+          data-variant-id="{{ product.selected_or_first_available_variant.id }}"
+          data-has-only-default-variant="{{ product.has_only_default_variant }}"
+        >
+          {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
+          {%- if pick_up_availabilities.size > 0 -%}
+            {% render 'product-pickup-availability', pick_up_availabilities: pick_up_availabilities %}
+          {% endif %}
+        </pickup-availability>
+        <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
   {%- endcase -%}
   {% endfor %}
 </div>

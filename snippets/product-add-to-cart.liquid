@@ -104,19 +104,4 @@
 		{%- endform -%}
 	{%- endif -%}
 </div>
-{%- if pickup -%}
-{%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
-<pickup-availability
-	class="pickup-availability-wrapper"
-	{% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %}available{% endif %}
-  data-root-url="{{ routes.root_url }}"
-  data-variant-id="{{ product.selected_or_first_available_variant.id }}"
-  data-has-only-default-variant="{{ product.has_only_default_variant }}"
->
-	{%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
-	{%- if pick_up_availabilities.size > 0 -%}
-		{% render 'product-pickup-availability', pick_up_availabilities: pick_up_availabilities %}
-	{% endif %}
-</pickup-availability>
-<script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
-{%- endif -%}
+
