@@ -1,0 +1,451 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_XeGt33": {
+      "type": "rich-text",
+      "blocks": {
+        "text_qnxmNi": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Affiliate <strong>Partner<\/strong><\/h1><p>Welcome to Niche Essence's Affiliate Partner Program, where you can turn your passion for our products into a rewarding opportunity. By joining our program, you'll earn 5% commission on every referred sale. <\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_KyftGz": {
+          "type": "button",
+          "settings": {
+            "link_label": "JOIN Affiliate PROGRAM",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "text_qnxmNi",
+        "button_KyftGz"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_Cx6qRh": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "image_with_text_WH7h36": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_GTXNHt": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>What is the <strong>Affiliate Partner Program<\/strong>?<\/h3><p>Our Affiliate Partner Program is designed for individuals who are enthusiastic about our brand and want to share it with their audience. Whether you're a blogger, influencer, or simply someone who loves our products, you can become a part of our affiliate family.<\/p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "text_GTXNHt"
+      ],
+      "custom_css": [
+        ".image-with-text__content--inner {margin-left: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/affiliate_page_1.webp",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "section_width": "full-width-row-full",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "color_bg": "#f7f3f3",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_LpNrgw": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "multicolumn_R8FYiB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_nyEf3i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/signup.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "1. Sign Up",
+            "text": "<p>Joining our program is quick and easy. Simply fill out our registration form, and once approved, you'll receive your unique affiliate link.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xnjYKg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/promote.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "2. Spread the Word",
+            "text": "<p>Share your affiliate link with your audience through your website, social media channels, email newsletters, or any other platforms where you engage with your followers.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7qBNiA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/earn.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "3. Earn Commission",
+            "text": "<p>For every customer who makes a purchase through your affiliate link, you'll earn a 5% commission on the total sale amount. The more you refer, the more you earn!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_nyEf3i",
+        "column_xnjYKg",
+        "column_7qBNiA"
+      ],
+      "custom_css": [
+        ".multicolumn__image {margin-bottom: 5px;}",
+        ".h5 {font-weight: 600;}"
+      ],
+      "settings": {
+        "heading": "How Does It Work?",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": false,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "multicolumn_UBAghJ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dXJGJ9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/commission.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Earn Commission",
+            "text": "<p>Earn 5% commission on every sale you refer to our store. There's no cap on how much you can earn, so your earning potential is limitless.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JjUzYm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/premium_products.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Premium Products",
+            "text": "<p>Niche Essence offers a curated selection of premium products that appeal to a wide range of audiences.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qjWka3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dashboard.jpg",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Affiliate Dashboard",
+            "text": "<p>Our user-friendly affiliate dashboard makes it simple to track your referrals, monitor your earnings, and request payouts. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dXJGJ9",
+        "column_JjUzYm",
+        "column_qjWka3"
+      ],
+      "custom_css": [
+        ".multicolumn__image {margin-bottom: 5px;}",
+        ".h5 {font-weight: 600;}"
+      ],
+      "settings": {
+        "heading": "Why Join Our Affiliate Program?",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": false,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_N8FqiW": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "rich_text_iEia6Y": {
+      "type": "rich-text",
+      "blocks": {
+        "text_gA7BJd": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Join Our <strong>Affiliate Partner Program<\/strong> Today!<\/h2><p>Ready to start earning 5% commission on every sale you refer? Join our Affiliate Partner Program today and become a valued member of the Niche Essence family. Together, we can make a difference and spread the essence of our brand far and wide.<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_mnE44r": {
+          "type": "button",
+          "settings": {
+            "link_label": "Join partner program",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "text_gA7BJd",
+        "button_mnE44r"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_ct3Nw4": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "rich_text_9k3LnM": {
+      "type": "rich-text",
+      "blocks": {
+        "text_daDrFX": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Get in touch<\/strong><\/h3><p>If you have any doubts or queries, contact us today.<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_daDrFX"
+      ],
+      "custom_css": [
+        ".rte {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#f1f1f1",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "text_with_icons_Ubzdpc": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_7LtghW": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "Chat Live with Us",
+            "text": "<p><a href=\"#\" title=\"#\">Chat Now<\/a><\/p>"
+          }
+        },
+        "icon_GUPFQH": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "Get in Touch via Email",
+            "text": "<p><a href=\"mailto:info@nicheessence.com\" title=\"mailto:info@nicheessence.com\">info@nicheessence.com<\/a><\/p>"
+          }
+        },
+        "icon_8mdy4p": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "Contact Us by Phone",
+            "text": "<p><a href=\"tel:+14167928450\" title=\"tel:+14167928450\">+14167928450<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_7LtghW",
+        "icon_GUPFQH",
+        "icon_8mdy4p"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "medium",
+        "heading_size": "medium",
+        "mobile_swipe": false,
+        "color_bg": "#f1f1f1",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_UrNiVW": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "collapsible_content_xLUnVi": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_QkXrTX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I apply for the Wholesale Partner Program?",
+            "open": false,
+            "content": "<p>To apply for our Wholesale Partner Program, simply visit our website and navigate to the 'Wholesale' section. There, you'll find an application form to fill out. Once submitted, our team will review your application and reach out to discuss partnership opportunities.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_VBjiYE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What are the benefits of becoming a wholesale partner with Niche Essence?",
+            "open": false,
+            "content": "<p>As a wholesale partner with Niche Essence, you'll enjoy exclusive access to our curated collection of premium products at discounted wholesale prices. Additionally, you'll receive dedicated support from our team, marketing materials, and promotional assistance to help boost your sales and grow your business.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_RQAMhw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is there a minimum order requirement for wholesale purchases?",
+            "open": false,
+            "content": "<p>Yes, we do have a minimum order requirement for wholesale purchases. The specific minimum order amount may vary depending on the products and quantities you're interested in. Please reach out to our wholesale team for more information on minimum order requirements for your desired products.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_6mi4jw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What payment methods do you accept for wholesale orders?",
+            "open": false,
+            "content": "<p>We accept various payment methods for wholesale orders, including credit\/debit cards, bank transfers, and PayPal. Our team will work with you to determine the most convenient payment method for your wholesale transactions.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_YEqqDr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What is your shipping policy for wholesale orders?",
+            "open": false,
+            "content": "<p>We strive to provide efficient and reliable shipping for all wholesale orders. Once your order is placed and payment is confirmed, our team will process and ship your products in a timely manner. Shipping costs and delivery times may vary depending on your location and the size of your order. For more details, please refer to our shipping policy or contact our wholesale support team.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_QkXrTX",
+        "collapsible_tab_VBjiYE",
+        "collapsible_tab_RQAMhw",
+        "collapsible_tab_6mi4jw",
+        "collapsible_tab_YEqqDr"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "description": "",
+        "uppercase_heading": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_XeGt33",
+    "spacer_Cx6qRh",
+    "image_with_text_WH7h36",
+    "spacer_LpNrgw",
+    "multicolumn_R8FYiB",
+    "multicolumn_UBAghJ",
+    "spacer_N8FqiW",
+    "rich_text_iEia6Y",
+    "spacer_ct3Nw4",
+    "rich_text_9k3LnM",
+    "text_with_icons_Ubzdpc",
+    "spacer_UrNiVW",
+    "collapsible_content_xLUnVi"
+  ]
+}

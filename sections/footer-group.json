@@ -1,0 +1,201 @@
+{
+  "type": "header",
+  "name": "Footer group",
+  "sections": {
+    "spacer_JYMfgd": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "text_with_icons_gCweQc": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_UrcFnj": {
+          "type": "icon",
+          "settings": {
+            "icon": "truck",
+            "heading": "",
+            "text": "<h6><strong>Free Shipping to US & Canada<\/strong><\/h6><p><a href=\"#\" title=\"#\">Learn More<\/a><\/p>"
+          }
+        },
+        "icon_HmUTYt": {
+          "type": "icon",
+          "settings": {
+            "icon": "perfume",
+            "heading": "",
+            "text": "<h6><strong>Complementary Samples<\/strong><\/h6><p><a href=\"#\" title=\"#\">View Samples<\/a><\/p>"
+          }
+        },
+        "icon_KzjfLn": {
+          "type": "icon",
+          "settings": {
+            "icon": "heart",
+            "heading": "",
+            "text": "<h6><strong>Loyalty Points & Rewards<\/strong><\/h6><p><a href=\"#\" title=\"#\">Learn More<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_UrcFnj",
+        "icon_HmUTYt",
+        "icon_KzjfLn"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "medium",
+        "heading_size": "large",
+        "mobile_swipe": true,
+        "color_bg": "#f7f3f3",
+        "color_heading": "#7b5716",
+        "color_text": "#aa822c",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "single_image_BXKPaG": {
+      "type": "single-image",
+      "custom_css": [
+        "div {background: #e1c478;}",
+        "img {margin-top: -0.5%;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/niche_essence_logo_gradient_-_gold.png",
+        "full_width": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_tWhPAW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_LhNjUg": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>The <strong>luxe boutique<\/strong> for scents.<\/h4>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_LhNjUg"
+      ],
+      "custom_css": [
+        "h4 {color: #7b5716;}"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#e1c478",
+        "color_text": "#ffffff",
+        "color_links": "#ffffff",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_iNpUcn": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "column_size": "large",
+            "title": "",
+            "text": "<h6>Enter the world of <em><strong>Niche Essence.<\/strong><\/em><br\/>The luxe boutique for scents.<\/h6>",
+            "text_size": "small",
+            "button_text": "",
+            "button_link": "",
+            "show_social_links": false
+          }
+        },
+        "text_QDqL7W": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "column_size": "large",
+            "title": "",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "show_social_links": false
+          }
+        },
+        "text_9hc89k": {
+          "type": "text",
+          "settings": {
+            "column_size": "medium",
+            "title": "CONTACT US",
+            "text": "<p><a href=\"tel:+14167928450\" title=\"tel:+14167928450\">+14167928450<\/a><\/p><p><a href=\"mailto:info@nicheessence.com\" title=\"mailto:info@nicheessence.com\">info@nicheessence.com<\/a><\/p><p>2901 BAYVIEW AVE. Unit 13<br\/>Bayview Village shopping centre<br\/>Toronto, Ontario, Canada<\/p>",
+            "text_size": "small",
+            "button_text": "",
+            "button_link": "",
+            "show_social_links": true
+          }
+        },
+        "menu_Ec69bB": {
+          "type": "menu",
+          "settings": {
+            "column_size": "medium",
+            "title": "LINKS",
+            "menu": "footer"
+          }
+        },
+        "menu_PPUFbd": {
+          "type": "menu",
+          "settings": {
+            "column_size": "medium",
+            "title": "LINKS",
+            "menu": "footer"
+          }
+        },
+        "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2": {
+          "type": "signup",
+          "settings": {
+            "column_size": "medium",
+            "title": "GET INSIDER ACCESS",
+            "text": "<p>Unlock exclusive deals and insider news by joining our mailing list.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_iNpUcn",
+        "text_QDqL7W",
+        "text_9hc89k",
+        "menu_Ec69bB",
+        "menu_PPUFbd",
+        "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2"
+      ],
+      "custom_css": [
+        "h6 {color: white;}",
+        "img {width: 300px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "copyright_text": "All rights reserved.",
+        "show_language_switcher": false,
+        "show_currency_switcher": false,
+        "show_payment_icons": true,
+        "enable_follow_on_shop": false
+      }
+    }
+  },
+  "order": [
+    "spacer_JYMfgd",
+    "text_with_icons_gCweQc",
+    "single_image_BXKPaG",
+    "rich_text_tWhPAW",
+    "footer"
+  ]
+}

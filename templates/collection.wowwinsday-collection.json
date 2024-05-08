@@ -1,0 +1,109 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+        ".collection-banner--content {margin: 0px 0px;}",
+        ".collection-banner {margin-bottom: 0px;}",
+        "h1 {text-align: left;}"
+      ],
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_description": true,
+        "show_subcollections": false,
+        "make_heading_uppercase": false,
+        "image": "shopify:\/\/shop_images\/wowwinsday.webp",
+        "overlay_color": "#000000",
+        "overlay_opacity": 40
+      }
+    },
+    "image_with_text_overlay_T4iD9z": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_67jJmq": {
+          "type": "heading",
+          "settings": {
+            "text": "WowWinsday",
+            "heading_size": "h1-large"
+          }
+        },
+        "text_TJQpPP": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>Tuesday 8PM to Wednesday 8PM<\/strong><\/h5><p>Unbeatable offers on ten products during a 24-hour online shopping spree.<\/p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_67jJmq",
+        "text_TJQpPP"
+      ],
+      "custom_css": [
+        "h5 {color: white;}",
+        ".image-with-text-overlay--content {max-width: 100%;}"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/wowinsday_collection_banner.webp",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-450",
+        "mobile_height": "mobile-height-400",
+        "content_width": "small",
+        "content_position": "middle-left",
+        "text_alignment": "left",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "countdown_banner_i9HEA7": {
+      "type": "countdown-banner",
+      "settings": {
+        "section_width": "full-width-row-full",
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "subheading": "",
+        "heading": "Sale Starts In",
+        "heading_size": "h2",
+        "content": "",
+        "content_size": "medium",
+        "button_text": "",
+        "button_link": "",
+        "timer_year": 2024,
+        "timer_month": "05",
+        "timer_day": "07",
+        "timer_hour": "20",
+        "timer_minute": "00",
+        "color_bg": "#ae1b1b",
+        "color_text": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "full_width": true,
+        "products_per_page": 11,
+        "columns_desktop": 4,
+        "pagination_type": "infinite",
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "show_counts": true,
+        "filter_color_swatches": true,
+        "facets_desktop": "drawer"
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "image_with_text_overlay_T4iD9z",
+    "countdown_banner_i9HEA7",
+    "product-grid"
+  ]
+}

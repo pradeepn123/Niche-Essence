@@ -1,0 +1,162 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "text_cHPXtQ": {
+          "type": "text",
+          "settings": {
+            "icon": "price_tag",
+            "text": "Exclusive: WowWinsday Sale Every Wednesday",
+            "link": "shopify:\/\/collections\/wowwinsday"
+          }
+        }
+      },
+      "block_order": [
+        "text_cHPXtQ"
+      ],
+      "settings": {
+        "announcement_bar": true,
+        "announcement_bar_homepage_only": false,
+        "announcement_bar_layout": "carousel",
+        "direction": "left",
+        "speed": "20s",
+        "autoplay": true,
+        "autoplay_length": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "megamenu_reBm4B": {
+          "type": "megamenu",
+          "settings": {
+            "position": "1",
+            "promo_1_image": "shopify:\/\/shop_images\/affiliate_page_1.webp",
+            "promo_1_heading": "Promotion heading",
+            "promo_1_link_label": "Shop",
+            "promo_1_link": "",
+            "promo_2_image": "shopify:\/\/shop_images\/wholesale_page_6.webp",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_link_label": "Shop",
+            "promo_2_link": "",
+            "promo_3_heading": "Promotion heading",
+            "promo_3_link_label": "Shop",
+            "promo_3_link": "",
+            "promo_4_heading": "Promotion heading",
+            "promo_4_link_label": "Shop",
+            "promo_4_link": ""
+          }
+        },
+        "megamenu_zxQ6Yi": {
+          "type": "megamenu",
+          "settings": {
+            "position": "2",
+            "promo_1_heading": "Promotion heading",
+            "promo_1_link_label": "Shop",
+            "promo_1_link": "",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_link_label": "Shop",
+            "promo_2_link": "",
+            "promo_3_heading": "Promotion heading",
+            "promo_3_link_label": "Shop",
+            "promo_3_link": "",
+            "promo_4_heading": "Promotion heading",
+            "promo_4_link_label": "Shop",
+            "promo_4_link": ""
+          }
+        },
+        "megamenu_QfLHFj": {
+          "type": "megamenu",
+          "settings": {
+            "position": "3",
+            "promo_1_image": "shopify:\/\/shop_images\/affiliate_page_1.webp",
+            "promo_1_heading": "Promotion heading",
+            "promo_1_link_label": "Shop",
+            "promo_1_link": "",
+            "promo_2_image": "shopify:\/\/shop_images\/wholesale_page_6.webp",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_link_label": "Shop",
+            "promo_2_link": "",
+            "promo_3_heading": "Promotion heading",
+            "promo_3_link_label": "Shop",
+            "promo_3_link": "",
+            "promo_4_heading": "Promotion heading",
+            "promo_4_link_label": "Shop",
+            "promo_4_link": ""
+          }
+        },
+        "megamenu_XHVdX7": {
+          "type": "megamenu",
+          "settings": {
+            "position": "4",
+            "promo_1_image": "shopify:\/\/shop_images\/affiliate_page_1.webp",
+            "promo_1_heading": "Promotion heading",
+            "promo_1_link_label": "Shop",
+            "promo_1_link": "",
+            "promo_2_image": "shopify:\/\/shop_images\/wholesale_page_6.webp",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_link_label": "Shop",
+            "promo_2_link": "",
+            "promo_3_heading": "Promotion heading",
+            "promo_3_link_label": "Shop",
+            "promo_3_link": "",
+            "promo_4_heading": "Promotion heading",
+            "promo_4_link_label": "Shop",
+            "promo_4_link": ""
+          }
+        },
+        "megamenu_mPN8Pk": {
+          "type": "megamenu",
+          "settings": {
+            "position": "5",
+            "promo_1_image": "shopify:\/\/shop_images\/affiliate_page_1.webp",
+            "promo_1_heading": "Promotion heading",
+            "promo_1_link_label": "Shop",
+            "promo_1_link": "",
+            "promo_2_image": "shopify:\/\/shop_images\/wholesale_page_6.webp",
+            "promo_2_heading": "Promotion heading",
+            "promo_2_link_label": "Shop",
+            "promo_2_link": "",
+            "promo_3_heading": "Promotion heading",
+            "promo_3_link_label": "Shop",
+            "promo_3_link": "",
+            "promo_4_heading": "Promotion heading",
+            "promo_4_link_label": "Shop",
+            "promo_4_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "megamenu_reBm4B",
+        "megamenu_zxQ6Yi",
+        "megamenu_QfLHFj",
+        "megamenu_XHVdX7",
+        "megamenu_mPN8Pk"
+      ],
+      "settings": {
+        "sticky_header": true,
+        "logo": "shopify:\/\/shop_images\/niche_essence_logo_-_gold.png",
+        "logo_height_range": 32,
+        "logo_height_range_mobile": 30,
+        "style": "style1",
+        "header_shadow": "header--shadow-small",
+        "menu": "menu-2",
+        "transparent_header": true,
+        "logo_light": "shopify:\/\/shop_images\/niche_essence_logo_-_white.png",
+        "show_language_switcher": false,
+        "show_currency_switcher": true,
+        "mobile_secondary_menu": "",
+        "mobile_promo_heading": "Promotion heading",
+        "mobile_promo_link_label": "Shop",
+        "mobile_promo_link": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

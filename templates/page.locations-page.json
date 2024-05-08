@@ -1,0 +1,227 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_6WmKgL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3UnTBA": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Store <strong>Locations<\/strong><\/h2><p>Discover exclusive fragrances, personalized service, and unparalleled sophistication. Find your nearest Niche Essence destination now.<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_3UnTBA"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_iqFHBP": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "multicolumn_Qy9RhB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TxXiVr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store_photo.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zDcDaW": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "<p><strong>FLAGSHIP STORE<\/strong><\/p><h2><strong>Niche Essence<\/strong><\/h2><h5><strong>Bayview Village Shopping Centre<\/strong><\/h5><p>Unit 13 - 2901 Bayview Avenue, Toronto, Ontario, M2K 1E6<\/p><p><strong>Contact : <\/strong><a href=\"tel:+1 (416) 792-8450   \" title=\"tel:+1 (416) 792-8450   \">+1 (416) 792-8450<\/a><br\/><strong>Visit Store : <\/strong><a href=\"https:\/\/maps.app.goo.gl\/LvLZGzSxckrnoamk6\" target=\"_blank\" title=\"https:\/\/maps.app.goo.gl\/LvLZGzSxckrnoamk6\">Get Directions<\/a><\/p><h6><strong>Timings:<\/strong><\/h6><p>Monday to Friday: 10AM – 8PM<br\/>Saturday: 10AM – 6PM<br\/>Sunday: 12PM - 5PM<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_TxXiVr",
+        "column_zDcDaW"
+      ],
+      "custom_css": [
+        ".multicolumn__column{margin-bottom:0px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": false,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "multicolumn_bhKVbj": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kjij99": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store_gallery_3.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8wKkPU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store_gallery_1.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_awVVFX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store_gallery_2.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Kx3rRw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store_gallery_4.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_kjij99",
+        "column_8wKkPU",
+        "column_awVVFX",
+        "column_Kx3rRw"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": true,
+        "show_progress_bar": false,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_ECgNDf": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "rich_text_kefAUQ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_k6WTii": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Become a Niche Essence <strong>Wholesale Partner<\/strong><\/h3><p>Partner with us to unlock growth opportunities & drive success. Access premium products at competitive prices.<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_wYX88p": {
+          "type": "button",
+          "settings": {
+            "link_label": "Join partner program",
+            "link": "",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "text_k6WTii",
+        "button_wYX88p"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_6WmKgL",
+    "spacer_iqFHBP",
+    "multicolumn_Qy9RhB",
+    "multicolumn_bhKVbj",
+    "spacer_ECgNDf",
+    "rich_text_kefAUQ"
+  ]
+}

@@ -1,0 +1,752 @@
+{
+  "sections": {
+    "16479477632637c9a7": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_X3NCRR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_2024-04-25_134003528.png",
+            "slide_link": "",
+            "video_background": true,
+            "video": "https:\/\/youtu.be\/_GChbZgx9_I?t=3",
+            "subheading": "CREED",
+            "heading": "Unveiling Green Irish Tweed",
+            "heading_size": "h1",
+            "content": "Earthy tones mingle with a touch of sophistication, creating a scent as timeless as the English countryside.",
+            "description_size": "small",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "Shop Creed",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "164794776393e76b8e-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_roja.webp",
+            "slide_link": "",
+            "video_background": true,
+            "video": "",
+            "subheading": "ROJA",
+            "heading": "Exquisite Spanish Inspired Perfumes",
+            "heading_size": "h1",
+            "content": "Discover luxury fragrances capturing Spanish elegance and tradition. Experience Roja Parfums' exclusive scents crafted with meticulous care.",
+            "description_size": "small",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "SHOP ROJA",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        },
+        "slide_NfmV3V": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_amouage.webp",
+            "slide_link": "",
+            "video_background": true,
+            "video": "",
+            "subheading": "AMOUAGE",
+            "heading": "Discover Divine Fragrance",
+            "heading_size": "h1",
+            "content": "Explore our refined and elegant collection of prestigious perfumes, blending tradition and innovation in enchanting floral and oriental scents.",
+            "description_size": "small",
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "content_size": "medium",
+            "overlay_color": "#000000",
+            "overlay_opacity": 70,
+            "overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) 100%)",
+            "button_1_text": "SHOP AMOUAGE",
+            "button_1_link": "",
+            "button_1_outline": false,
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_X3NCRR",
+        "164794776393e76b8e-2",
+        "slide_NfmV3V"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_height": "desktop-height-750",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "autoplay": true,
+        "autoplay_length": 10,
+        "transition": "fade",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "featured_collection_jhQ3DT": {
+      "type": "featured-collection",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "New Arrivals",
+        "heading_left": true,
+        "description": "<p>Explore our latest additions, crafted to captivate and inspire.<\/p>",
+        "full_width": true,
+        "collection": "new-products",
+        "display_type": "carousel",
+        "product_limit": 12,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "166143150135dd97e2": {
+      "type": "gallery",
+      "blocks": {
+        "6a1c724d-715f-4918-acea-e9f4464d74de": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery_fragrances2.webp",
+            "subheading": "",
+            "title": "Fragrances",
+            "text": "Explore a world of captivating fragrances tailored to your style.",
+            "link_label": "Shop Fragrances",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": [
+
+            ]
+          }
+        },
+        "bbdd3a28-ed72-4073-b920-e0710a00f80b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery_bath_body2.webp",
+            "subheading": "",
+            "title": "Bath & Body",
+            "text": "Experience luxury and vitality with our bath and body collection.",
+            "link_label": "Shop bath & body",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": [
+
+            ]
+          }
+        },
+        "image_WCKcQh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gallery_home_collection2.webp",
+            "subheading": "",
+            "title": "Home Collection",
+            "text": "Enhance your home environment with our chic and cozy selection.",
+            "link_label": "shop home collection",
+            "link": "",
+            "use_text_button": false,
+            "block_link": "",
+            "product_list": [
+
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "6a1c724d-715f-4918-acea-e9f4464d74de",
+        "bbdd3a28-ed72-4073-b920-e0710a00f80b",
+        "image_WCKcQh"
+      ],
+      "custom_css": [
+        ".gallery__item-content {padding: 26px;}"
+      ],
+      "settings": {
+        "columns_desktop": 3,
+        "section_width": "full-width-row",
+        "mobile_swipe": false,
+        "image_ratio": "portrait",
+        "content_position": "bottom-left",
+        "text_alignment": "left",
+        "column_spacing": "large",
+        "heading_size": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "featured_collection_EyExmr": {
+      "type": "featured-collection",
+      "settings": {
+        "heading": "Best Sellers",
+        "heading_left": true,
+        "description": "<p>Find what everyone's loving! Discover the latest trends.<\/p>",
+        "full_width": true,
+        "collection": "new-products",
+        "display_type": "carousel",
+        "product_limit": 12,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16614195534fb74bc3": {
+      "type": "collection-tabs",
+      "blocks": {
+        "9dc5629d-3c1a-4dcc-b25a-0aa3972a2cb7": {
+          "type": "collection",
+          "settings": {
+            "collection": "byredo"
+          }
+        },
+        "8695b758-8543-4e57-bb17-1249221a1269": {
+          "type": "collection",
+          "settings": {
+            "collection": "amouage-fragrances"
+          }
+        },
+        "collection_mBHxMX": {
+          "type": "collection",
+          "settings": {
+            "collection": "roja"
+          }
+        },
+        "collection_ncEjPL": {
+          "type": "collection",
+          "settings": {
+            "collection": "xerjoff-fragrances"
+          }
+        }
+      },
+      "block_order": [
+        "9dc5629d-3c1a-4dcc-b25a-0aa3972a2cb7",
+        "8695b758-8543-4e57-bb17-1249221a1269",
+        "collection_mBHxMX",
+        "collection_ncEjPL"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Shop By Brands",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "product_limit": 8,
+        "columns_desktop": 4,
+        "show_view_all": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "multicolumn_LLkJg7": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_eNUy4J": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_creed.png",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Hnr9kp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_kajal.png",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_E7TABc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_thameen.png",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LktnMJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_initio.png",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eG6enR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_nasomatto.png",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AENpzD": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "And More",
+            "text": "",
+            "link_label": "View All Brands",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_eNUy4J",
+        "column_Hnr9kp",
+        "column_E7TABc",
+        "column_LktnMJ",
+        "column_eG6enR",
+        "column_AENpzD"
+      ],
+      "custom_css": [
+        ".multicolumn__image {width: 256px !important; margin-bottom: 0px; background-color: #f9f9f9;}",
+        ".multicolumn__column:last-child {margin-top: auto; margin-bottom: auto;}"
+      ],
+      "settings": {
+        "heading": "Explore Brands",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": true,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "166366584621bc44f2": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "spacer_3EDfTQ": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 30,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "image_with_text_m7A9pA": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_mCPCx3": {
+          "type": "subheading",
+          "settings": {
+            "text": "Exclusive Sale"
+          }
+        },
+        "heading_AB7kHD": {
+          "type": "heading",
+          "settings": {
+            "text": "WOWWINSDAY",
+            "heading_size": "h1"
+          }
+        },
+        "text_LGWjkT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover WowWinsday, your weekly midweek deals event! Exclusive 24-hour online shopping spree every Tuesday 8:00PM to Wednesday 8:00PM. Ten amazing products and offers available with just one click.<\/p>",
+            "description_size": "medium"
+          }
+        },
+        "button_4bc9aq": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "SHOP WOWWINSDAY",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mCPCx3",
+        "heading_AB7kHD",
+        "text_LGWjkT",
+        "button_4bc9aq"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/image_2024-04-25_133613008.png",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "section_width": "full-width-row",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "color_bg": "#151515",
+        "color_text": "#ffffff",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16624658277b7c3abc": {
+      "type": "countdown-banner",
+      "settings": {
+        "section_width": "full-width-row",
+        "section_layout": "horizontal",
+        "desktop_height": "desktop-height-auto",
+        "mobile_height": "mobile-height-auto",
+        "subheading": "",
+        "heading": "SALE STARTS IN",
+        "heading_size": "h2",
+        "content": "",
+        "content_size": "small",
+        "button_text": "SHOP WOWWINSDAY",
+        "button_link": "",
+        "timer_year": 2024,
+        "timer_month": "05",
+        "timer_day": "07",
+        "timer_hour": "20",
+        "timer_minute": "00",
+        "color_bg": "#ae1b1b",
+        "color_text": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "16626364694d37e9d5": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 20,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    },
+    "background_video_qTHHGF": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-350",
+        "full_width": true,
+        "subheading": "",
+        "heading": "",
+        "text": "",
+        "lightbox_button": true,
+        "video": "https:\/\/www.youtube.com\/watch?v=-Cg5msNwrmc&pp=ygUPcm9qYSBwYXJmdW1zIGFk",
+        "overlay_opacity": 25,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_4r6b3c": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "1662459178b0886a69": {
+      "type": "rich-text",
+      "blocks": {
+        "4551cbda-76ff-4a07-a279-a29df7956af6": {
+          "type": "subheading",
+          "settings": {
+            "text": "CUSTOMERS LOVE US"
+          }
+        }
+      },
+      "block_order": [
+        "4551cbda-76ff-4a07-a279-a29df7956af6"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "16615358507b6ff1a8": {
+      "type": "testimonials",
+      "blocks": {
+        "60961cb1-416e-4c98-a9ec-2a41dfae8911": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "\"If you're looking for the MOST PRESTIGIOUS scents, then look no further. Best products from the best perfumery around the world, to top it off, absolutely best prices!\"",
+            "author": "Arman Lalezari"
+          }
+        },
+        "quote_Jwann9": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "\"Excellent service and great online store. The sales lady was very helpful in suggesting fragrances that smelled nice. They also sell samples of niche fragrances.\"",
+            "author": "Alex Chu"
+          }
+        },
+        "quote_iGLf6b": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "\"This is Toronto's best fragrance boutique in terms of niche fragrance selections, service and just the overall experience. It's a must visit for fragrance lovers\/collectors!\"",
+            "author": "David He"
+          }
+        },
+        "quote_LDgiPY": {
+          "type": "quote",
+          "settings": {
+            "stars": "5",
+            "text": "\"Fantastic customer service! Would recommend anyone who wants an authentic niche fragrance to buy it from here!\"",
+            "author": "John Ferko"
+          }
+        }
+      },
+      "block_order": [
+        "60961cb1-416e-4c98-a9ec-2a41dfae8911",
+        "quote_Jwann9",
+        "quote_iGLf6b",
+        "quote_LDgiPY"
+      ],
+      "settings": {
+        "full_width": true,
+        "text_size": "small",
+        "pagination": "dots",
+        "autoplay": true,
+        "autoplay_length": 5,
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "1662368401fce27368": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "image_with_text_mxTWAb": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_qUkg7C": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Enter the world of <strong>Niche Essence<\/strong><\/h4>",
+            "description_size": "medium"
+          }
+        },
+        "text_mUzFXt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Luxury boutique in North America specializing in high-end up niche perfumes, we strive to provide you with an experience beyond the ordinary.<br\/><a href=\"\/pages\/about-us\" title=\"About us\">About Us<\/a><\/p>",
+            "description_size": "medium"
+          }
+        },
+        "space_xdqzQh": {
+          "type": "space",
+          "settings": {
+            "height": 40
+          }
+        },
+        "text_AWxaEE": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>FLAGSHIP <strong>STORE<\/strong><\/h5>",
+            "description_size": "medium"
+          }
+        },
+        "text_Qkj7QU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>CANADA<\/strong><br\/>Unit 13 - 2901 Bayview Avenue, Toronto, Ontario, M2K 1E6<br\/><a href=\"\/pages\/location\" title=\"Locations\">View Locations<\/a><\/p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "text_qUkg7C",
+        "text_mUzFXt",
+        "space_xdqzQh",
+        "text_AWxaEE",
+        "text_Qkj7QU"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Niche-Essence.jpg",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "small",
+        "desktop_image_width": "large",
+        "section_width": "full-width-row",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "color_bg": "#f7f3f3",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "multicolumn_fxmFGT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Krgiag": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wholesale_partner_program.webp",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QQYr89": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "<h5>For <strong>Retailers<\/strong><\/h5><p>Partner with us to unlock growth opportunities & drive success. Access premium products at competitive prices.<\/p>",
+            "link_label": "JOIN WHOLESALE PARTNER",
+            "link": "shopify:\/\/pages\/wholesale"
+          }
+        },
+        "column_nn7MUt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/affiliate_partner_program.webp",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bYRmkr": {
+          "type": "column",
+          "settings": {
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "<h5>For <strong>Influencers<\/strong><\/h5><p>Join our referral program and start earning today. Receive a 5% commission for every dollar you refer to our store.<\/p>",
+            "link_label": "JOIN AFFILIATE PARTNER",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Krgiag",
+        "column_QQYr89",
+        "column_nn7MUt",
+        "column_bYRmkr"
+      ],
+      "custom_css": [
+        ".multicolumn__column:nth-child(1),.multicolumn__column:nth-child(3) {margin-bottom: 0px;}",
+        ".multicolumn__image,h5 {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_left": false,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": false,
+        "show_progress_bar": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "16479477632637c9a7",
+    "featured_collection_jhQ3DT",
+    "166143150135dd97e2",
+    "featured_collection_EyExmr",
+    "16614195534fb74bc3",
+    "multicolumn_LLkJg7",
+    "166366584621bc44f2",
+    "spacer_3EDfTQ",
+    "image_with_text_m7A9pA",
+    "16624658277b7c3abc",
+    "16626364694d37e9d5",
+    "background_video_qTHHGF",
+    "spacer_4r6b3c",
+    "1662459178b0886a69",
+    "16615358507b6ff1a8",
+    "1662368401fce27368",
+    "image_with_text_mxTWAb",
+    "multicolumn_fxmFGT"
+  ]
+}

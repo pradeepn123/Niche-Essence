@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "settings": {
+        "heading": "SHOP BY CATEGORY",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "sort": "alphabetical",
+        "image_ratio": "portrait",
+        "style": "style1",
+        "columns_desktop": 4,
+        "collection_list_pagination_num": 24,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

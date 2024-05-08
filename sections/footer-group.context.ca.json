@@ -1,0 +1,19 @@
+{
+  "parent": "footer-group.json",
+  "context": {
+    "market": "ca"
+  },
+  "sections": {
+    "text_with_icons_gCweQc": {
+      "settings": {
+      },
+      "blocks": {
+        "icon_UrcFnj": {
+          "settings": {
+            "text": "<h6><strong>Free Shipping to Canada<\/strong><\/h6><p><a href=\"#\" title=\"#\">Learn More<\/a><\/p>"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,539 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_XeGt33": {
+      "type": "rich-text",
+      "blocks": {
+        "text_qnxmNi": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Wholesale <strong>Partner<\/strong><\/h1><p>If you're interested in partnering with Niche Essence through wholesale arrangements or opening a Niche Essence retail outlet at your establishment, we invite you to reach out to us.<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "button_KyftGz": {
+          "type": "button",
+          "settings": {
+            "link_label": "JOIN PARTNER PROGRAM",
+            "link": "shopify:\/\/pages\/wholesale-partner-signup",
+            "button_outline": false
+          }
+        }
+      },
+      "block_order": [
+        "text_qnxmNi",
+        "button_KyftGz"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_Cx6qRh": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "image_with_text_WH7h36": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_GTXNHt": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>At Niche Essence, we believe in the power of collaboration and mutual growth. Our Wholesale Partner Program offers an unparalleled opportunity for businesses and individuals seeking to expand their reach in the luxury fragrance market.<\/h4>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "text_GTXNHt"
+      ],
+      "custom_css": [
+        ".image-with-text__content--inner {margin-left: 0px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_page_banner_amouage.webp",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "small",
+        "desktop_image_width": "medium",
+        "section_width": "full-width-row-full",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "color_bg": "#f7f3f3",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_overlay_t4kwhi": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "text_qirdMX": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>At Niche Essence, we believe in the power of collaboration and mutual growth. Our Wholesale Partner Program offers an unparalleled opportunity for businesses and individuals seeking to expand their reach in the luxury fragrance market.<\/h4>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "text_qirdMX"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h4 {color: white;}",
+        ".image-with-text-overlay--content {max-width: inherit;}"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/about_page_banner_amouage.webp",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-500",
+        "content_width": "medium",
+        "content_position": "middle-left",
+        "text_alignment": "left",
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "rich_text_wNF49F": {
+      "type": "rich-text",
+      "blocks": {
+        "text_fP4YjB": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>At Niche Essence, we believe in the power of collaboration and mutual growth. Our Wholesale Partner Program offers an unparalleled opportunity for businesses and individuals seeking to expand their reach in the luxury fragrance market. <\/h4>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_fP4YjB"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".row {background: #f7f3f3;}"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "large",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "#f7f3f3",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_LpNrgw": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "multicolumn_R8FYiB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_eMGLbF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wholesale_page_1.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Premium Products",
+            "text": "<p>Gain access to our collection of high-quality fragrances crafted with precision and passion. Each scent is a masterpiece, designed to captivate the senses and leave a lasting impression.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ATwmwb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wholesale_page_2.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Brand Prestige",
+            "text": "<p>Align your brand with Niche Essence, a symbol of sophistication and elegance in the fragrance industry. Benefit from the reputation and recognition associated with our esteemed brand.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LhmFLE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wholesale_page_4.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Diverse Selection",
+            "text": "<p>Explore a diverse range of fragrances that cater to a wide array of preferences and tastes. From timeless classics to contemporary blends, our portfolio has something for everyone.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nyEf3i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wholesale_page_3.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Exclusive Discounts",
+            "text": "<p>Enjoy exclusive wholesale pricing and special discounts reserved for our valued partners. Maximize your profitability while offering exceptional value to your customers.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xnjYKg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wholesale_page_5.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Marketing Support",
+            "text": "<p>Take advantage of our comprehensive marketing support to enhance your visibility and drive sales. From promotional materials to social media campaigns, we're here to help you succeed.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7qBNiA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/wholesale_page_6.webp",
+            "image_full_width": true,
+            "retina": true,
+            "title": "Training and Resources",
+            "text": "<p>Access valuable training resources to equip yourself with the knowledge and skills needed to thrive in the fragrance market. Our team is committed to your success every step of the way.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_eMGLbF",
+        "column_ATwmwb",
+        "column_LhmFLE",
+        "column_nyEf3i",
+        "column_xnjYKg",
+        "column_7qBNiA"
+      ],
+      "custom_css": [
+        ".multicolumn__image {margin-bottom: 5px;}",
+        ".h5 {font-weight: 600;}"
+      ],
+      "settings": {
+        "heading": "Why Partner with Us?",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "display_type": "grid",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "text_alignment": "left",
+        "heading_size": "h5",
+        "mobile_swipe": false,
+        "show_progress_bar": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_Bjypyz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_AzcYcy": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>Top Brands We Partner With<\/strong><\/h4>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_AzcYcy"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "scrolling_text_3a47A3": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_pJFFVw": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_amouage.png",
+            "text": "",
+            "link": "shopify:\/\/collections\/amouage-fragrances",
+            "outline_text": false
+          }
+        },
+        "text_e6aBjR": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_nasomatto.png",
+            "text": "",
+            "link": "shopify:\/\/collections\/nasomatto",
+            "outline_text": false
+          }
+        },
+        "text_nRBJgU": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_thameen.png",
+            "text": "",
+            "link": "shopify:\/\/collections\/thameen",
+            "outline_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_pJFFVw",
+        "text_e6aBjR",
+        "text_nRBJgU"
+      ],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "text_size": 24,
+        "text_uppercase": false,
+        "image_size": "medium",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_ct3Nw4": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "contact_form_G3XLdc": {
+      "type": "contact-form",
+      "disabled": true,
+      "custom_css": [
+        ".contact-form {background: #f1f1f1; margin-bottom: 0px; margin-top: 0px; padding-top: 40px; padding-bottom: 40px;}"
+      ],
+      "settings": {
+        "heading": "Get in touch",
+        "description": "<p>Contact us today to explore collaboration possibilities.<\/p>",
+        "show_phone_number": true,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_g7nVaX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_ekyBHN": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>Get in touch<\/strong><\/h3><p>If you have any doubts or queries, contact us today.<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_ekyBHN"
+      ],
+      "custom_css": [
+        ".rte {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#f1f1f1",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "text_with_icons_Ubzdpc": {
+      "type": "text-with-icons",
+      "blocks": {
+        "icon_7LtghW": {
+          "type": "icon",
+          "settings": {
+            "icon": "ruler",
+            "heading": "Chat Live with Us",
+            "text": "<p><a href=\"#\" title=\"#\">Chat Now<\/a><\/p>"
+          }
+        },
+        "icon_GUPFQH": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "Get in Touch via Email",
+            "text": "<p><a href=\"mailto:info@nicheessence.com\" title=\"mailto:info@nicheessence.com\">info@nicheessence.com<\/a><\/p>"
+          }
+        },
+        "icon_8mdy4p": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble",
+            "heading": "Contact Us by Phone",
+            "text": "<p><a href=\"tel:+14167928450\" title=\"tel:+14167928450\">+14167928450<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_7LtghW",
+        "icon_GUPFQH",
+        "icon_8mdy4p"
+      ],
+      "settings": {
+        "text_alignment": "left",
+        "icon_position": "left",
+        "icon_size": "medium",
+        "heading_size": "medium",
+        "mobile_swipe": false,
+        "color_bg": "#f1f1f1",
+        "color_heading": "#151515",
+        "color_text": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_UrNiVW": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 0,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "collapsible_content_xLUnVi": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_QkXrTX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How do I apply for the Wholesale Partner Program?",
+            "open": false,
+            "content": "<p>To apply for our Wholesale Partner Program, simply visit our website and navigate to the 'Wholesale' section. There, you'll find an application form to fill out. Once submitted, our team will review your application and reach out to discuss partnership opportunities.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_VBjiYE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What are the benefits of becoming a wholesale partner with Niche Essence?",
+            "open": false,
+            "content": "<p>As a wholesale partner with Niche Essence, you'll enjoy exclusive access to our curated collection of premium products at discounted wholesale prices. Additionally, you'll receive dedicated support from our team, marketing materials, and promotional assistance to help boost your sales and grow your business.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_RQAMhw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Is there a minimum order requirement for wholesale purchases?",
+            "open": false,
+            "content": "<p>Yes, we do have a minimum order requirement for wholesale purchases. The specific minimum order amount may vary depending on the products and quantities you're interested in. Please reach out to our wholesale team for more information on minimum order requirements for your desired products.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_6mi4jw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What payment methods do you accept for wholesale orders?",
+            "open": false,
+            "content": "<p>We accept various payment methods for wholesale orders, including credit\/debit cards, bank transfers, and PayPal. Our team will work with you to determine the most convenient payment method for your wholesale transactions.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_YEqqDr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What is your shipping policy for wholesale orders?",
+            "open": false,
+            "content": "<p>We strive to provide efficient and reliable shipping for all wholesale orders. Once your order is placed and payment is confirmed, our team will process and ship your products in a timely manner. Shipping costs and delivery times may vary depending on your location and the size of your order. For more details, please refer to our shipping policy or contact our wholesale support team.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_QkXrTX",
+        "collapsible_tab_VBjiYE",
+        "collapsible_tab_RQAMhw",
+        "collapsible_tab_6mi4jw",
+        "collapsible_tab_YEqqDr"
+      ],
+      "settings": {
+        "heading": "FAQ",
+        "description": "",
+        "uppercase_heading": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_XeGt33",
+    "spacer_Cx6qRh",
+    "image_with_text_WH7h36",
+    "image_with_text_overlay_t4kwhi",
+    "rich_text_wNF49F",
+    "spacer_LpNrgw",
+    "multicolumn_R8FYiB",
+    "rich_text_Bjypyz",
+    "scrolling_text_3a47A3",
+    "spacer_ct3Nw4",
+    "contact_form_G3XLdc",
+    "rich_text_g7nVaX",
+    "text_with_icons_Ubzdpc",
+    "spacer_UrNiVW",
+    "collapsible_content_xLUnVi"
+  ]
+}

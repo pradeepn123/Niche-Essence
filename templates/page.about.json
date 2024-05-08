@@ -1,0 +1,399 @@
+{
+  "sections": {
+    "rich_text_RJLGHX": {
+      "type": "rich-text",
+      "blocks": {
+        "text_RAGBEf": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Welcome to <strong>Niche Essence <\/strong><\/h1>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "text_Vz3aBy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Niche Essence, we invite you to step into a world of olfactory splendor, where every fragrance tells a unique story and every scent embodies luxury.<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_RAGBEf",
+        "text_Vz3aBy"
+      ],
+      "settings": {
+        "section_width": "full-width-row",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "rgba(0,0,0,0)",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
+    "166161901464a25e50": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "166161901437c6bc67-2": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Welcome to <strong>Niche Essence <\/strong><\/h1><p>Where Luxury Meets Scent<\/p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "166161901437c6bc67-2"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h1,h2 {color: white;}"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/store_interior_wide.webp",
+        "image_parallax": false,
+        "desktop_height": "desktop-height-550",
+        "mobile_height": "mobile-height-500",
+        "content_width": "small",
+        "content_position": "middle-left",
+        "text_alignment": "left",
+        "overlay_opacity": 20,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_yxPMRg": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 5,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "scrolling_text_3nNGrq": {
+      "type": "scrolling-text",
+      "blocks": {
+        "text_KgWeit": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon_scroll_star.png",
+            "text": "ABOUT US",
+            "link": "",
+            "outline_text": true
+          }
+        },
+        "text_cdLQNT": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon_scroll_star.png",
+            "text": "ABOUT US",
+            "link": "",
+            "outline_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_KgWeit",
+        "text_cdLQNT"
+      ],
+      "settings": {
+        "height": "height-auto",
+        "full_width": true,
+        "direction": "left",
+        "speed": "20s",
+        "text_size": 70,
+        "text_uppercase": false,
+        "image_size": "small",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "spacer_Xyqhdz": {
+      "type": "spacer",
+      "custom_css": [
+        ".spacer {height: 0px;}"
+      ],
+      "settings": {
+        "spacer_mobile": 0,
+        "spacer_desktop": 5,
+        "border_separator": true,
+        "border_separator_full": true
+      }
+    },
+    "16616191162185f622": {
+      "type": "rich-text",
+      "blocks": {
+        "1661619116558a03c6-1": {
+          "type": "heading",
+          "settings": {
+            "text": "At Niche Essence, we invite you to step into a world of olfactory splendor, where every fragrance tells a unique story and every scent embodies luxury.",
+            "size": "h3"
+          }
+        },
+        "heading_LQBiLp": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "As one of North America's premier luxury boutiques specializing in high-end niche perfumes, we pride ourselves on offering an experience that transcends the ordinary.",
+            "size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "1661619116558a03c6-1",
+        "heading_LQBiLp"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "left",
+        "text_alignment": "left",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "image_with_text_DqXmT8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_N7AwDF": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Distinctive Collection",
+            "heading_size": "h3"
+          }
+        },
+        "image_ePrAKA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/byredo_main_1cacca0c-0cf9-4693-a48c-ef1debda9592.jpg",
+            "retina": true
+          }
+        },
+        "text_ND4kqf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Step into our sanctuary of scent and explore our curated collection of over 30 prestigious brands from the world's most renowned perfumeries. From the timeless elegance of Amouage to the avant-garde creations of Nasomatto, each brand in our portfolio represents the pinnacle of olfactory craftsmanship. <\/p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_N7AwDF",
+        "image_ePrAKA",
+        "text_ND4kqf"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_page_3.webp",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "section_width": "full-width-row-full",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "color_bg": "#f7f3f3",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_wFXgXh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dbcq67": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Philosophy",
+            "heading_size": "h3"
+          }
+        },
+        "image_Vkwpy3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store_gallery_3.webp",
+            "retina": true
+          }
+        },
+        "text_rbR4C6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Niche Essence, we believe that perfumes are more than just fragrances—they are expressions of individuality, moments captured in a bottle, and treasures to be cherished. Our mission is to provide you with a personalized and exceptional experience that goes beyond your expectations.<\/p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dbcq67",
+        "image_Vkwpy3",
+        "text_rbR4C6"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_page_2.webp",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "section_width": "full-width-row-full",
+        "layout": "image_first",
+        "content_position": "text-left",
+        "color_bg": "#f7f3f3",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_TbWWEy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7NXRmD": {
+          "type": "heading",
+          "settings": {
+            "text": "Our Commitment to You",
+            "heading_size": "h3"
+          }
+        },
+        "image_9DxDM9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store_gallery_2.webp",
+            "retina": true
+          }
+        },
+        "text_JCgQdi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From the moment you walk through our doors, our dedicated team is committed to ensuring that your experience with us is nothing short of extraordinary. Whether you're seeking a signature scent or searching for a special gift, we are here to assist you with expert advice and unparalleled customer service.<\/p>",
+            "description_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7NXRmD",
+        "image_9DxDM9",
+        "text_JCgQdi"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about_page_1.webp",
+        "use_video": false,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_autoplay": true,
+        "video_controls": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "section_width": "full-width-row-full",
+        "layout": "text_first",
+        "content_position": "text-left",
+        "color_bg": "#f7f3f3",
+        "color_text": "#151515",
+        "color_border": "#e2e2e2",
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": true
+      }
+    },
+    "image_with_text_overlay_38dwrm": {
+      "type": "image-with-text-overlay",
+      "custom_css": [
+        "h5 {color: white;}"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "image": "shopify:\/\/shop_images\/banner_thameen.webp",
+        "image_parallax": true,
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-350",
+        "content_width": "medium",
+        "content_position": "middle-center",
+        "text_alignment": "center",
+        "overlay_opacity": 30,
+        "disable_top_spacing": true,
+        "disable_bottom_spacing": false
+      }
+    },
+    "rich_text_Kq3Xcj": {
+      "type": "rich-text",
+      "blocks": {
+        "text_4RTHwi": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Join us at Niche Essence and <strong>embark on a sensory adventure<\/strong> unlike any other. Let us help you find the scent that speaks to your soul, elevates your spirit, and becomes an integral part of your personal narrative. <\/h5>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        },
+        "text_gNLrjh": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Because at Niche Essence, <strong>luxury is not just a label<\/strong>—it's an experience to be savored, cherished, and shared.<\/h5>",
+            "custom_liquid": "",
+            "size": "text-size-regular"
+          }
+        }
+      },
+      "block_order": [
+        "text_4RTHwi",
+        "text_gNLrjh"
+      ],
+      "settings": {
+        "section_width": "full-width-row-full",
+        "text_width": "large",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "#ffffff",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
+    "spacer_U3QFTi": {
+      "type": "spacer",
+      "settings": {
+        "spacer_mobile": 20,
+        "spacer_desktop": 40,
+        "border_separator": false,
+        "border_separator_full": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_RJLGHX",
+    "166161901464a25e50",
+    "spacer_yxPMRg",
+    "scrolling_text_3nNGrq",
+    "spacer_Xyqhdz",
+    "16616191162185f622",
+    "image_with_text_DqXmT8",
+    "image_with_text_wFXgXh",
+    "image_with_text_TbWWEy",
+    "image_with_text_overlay_38dwrm",
+    "rich_text_Kq3Xcj",
+    "spacer_U3QFTi"
+  ]
+}
