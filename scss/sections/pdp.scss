@@ -1,0 +1,42 @@
+@use 'StyleComponents/mixins';
+@use 'StyleComponents/typography';
+@import 'Token';
+@import 'breakpoints';
+@import 'StyleComponents/layout';
+@import 'StyleComponents/button';
+
+ .product__img-overlay{
+        position: relative;
+    
+}
+ .product__img-overlay::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #00000007;
+        z-index: 6;
+    }
+.pdp__quick-view {
+    width: 65% !important;
+    right: 5% !important;
+    left: unset !important;
+    color: #473715 !important;
+    column-gap: 5px;
+    @media(--xxs){
+        width: 55% !important;
+    }
+    @media(--sm){
+        width: 75% !important;
+    }
+    @media(--md-large){
+        width: 45% !important;  
+    }
+    @media(--lg){
+        width: 37% !important; 
+    }
+    
+}
+   
