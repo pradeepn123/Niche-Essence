@@ -294,6 +294,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_creed.png",
+            "block_link": "shopify:\/\/collections\/creed",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -306,6 +307,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_kajal.png",
+            "block_link": "shopify:\/\/collections\/kajal",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -318,6 +320,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_thameen.png",
+            "block_link": "shopify:\/\/collections\/thameen",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -330,6 +333,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_initio.png",
+            "block_link": "shopify:\/\/collections\/initio",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -342,6 +346,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_nasomatto.png",
+            "block_link": "shopify:\/\/collections\/nasomatto",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -353,12 +358,13 @@
         "column_AENpzD": {
           "type": "column",
           "settings": {
+            "block_link": "\/collections\/all",
             "image_full_width": false,
             "retina": true,
             "title": "And More",
             "text": "",
             "link_label": "View All Brands",
-            "link": ""
+            "link": "\/collections\/all"
           }
         }
       },
@@ -683,6 +689,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/wholesale_partner_program.webp",
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -694,6 +701,7 @@
         "column_QQYr89": {
           "type": "column",
           "settings": {
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -706,6 +714,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/affiliate_partner_program.webp",
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -717,6 +726,7 @@
         "column_bYRmkr": {
           "type": "column",
           "settings": {
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",

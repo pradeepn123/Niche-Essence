@@ -40,7 +40,7 @@
 			<div class="multicolumn__inner display-type--{{ display_type }}">
 				<{{ element }} class="row align-stretch no-padding {{ display_type }}">
 					{%- for block in section.blocks -%}
-						<div class="multicolumn__column small-12 {{ columns_desktop_class }} columns {% if display_type == 'carousel' %}carousel__slide{% endif %}">
+						<div {% if block.settings.block_link %} onclick="window.location.href = '{{ block.settings.block_link }}' " {% endif %} class="multicolumn__column small-12 {{ columns_desktop_class }} columns {% if display_type == 'carousel' %}carousel__slide{% endif %}" style="{% if block.settings.block_link %} cursor: pointer; {% endif %}">
 							{% if block.settings.image != blank %}
 								{%- liquid
 									assign ratio = 1
@@ -255,6 +255,11 @@
 						"id": "image",
 						"label": "Image",
 						"info": "770 x 770 .jpg recommended."
+					},
+					{
+						"type": "url",
+						"id": "block_link",
+						"label": "Block Link"
 					},
 					{
 						"type": "checkbox",
