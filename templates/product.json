@@ -207,16 +207,6 @@
     },
     "1714377135160735f2": {
       "type": "apps",
-      "blocks": {
-        "product_reviews_reviews_F7NC3B": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "product_reviews_reviews_F7NC3B"
-      ],
       "custom_css": [
         "#shopify-product-reviews {margin-left: 0px; margin-right: 0px; max-width: 100%;}"
       ],
