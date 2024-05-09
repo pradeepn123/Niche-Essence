@@ -4,5 +4,26 @@
     "b2b": true
   },
   "sections": {
+    "16614195534fb74bc3": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "featured_collection_jhQ3DT": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "featured_collection_EyExmr": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
   }
 }
