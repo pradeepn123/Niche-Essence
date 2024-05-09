@@ -170,13 +170,26 @@
       </collapsible-row>
       {%- endif -%}
     {%- when 'complementary' -%}
-      <product-recommendations class="complementary-products no-js-hidden" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary">
+      <div class="complementary-products--inner">
+            
+
+        {%- if block.settings.block_heading != blank -%}
+          <div class="complementary-products--heading">{{ block.settings.block_heading }}</div>
+        {%- endif -%}
+        {% for sample in product.metafields.custom.sample_products.value %}
+          {%- render 'product-card-small', product_small: sample, quick_add: true -%}
+        {% endfor %}
+        {% comment %} {%- for recommended_product in recommendations.products limit: block.settings.product_list_limit offset: continue -%}
+          {%- render 'product-card-small', product_small: recommended_product, quick_add: true -%}
+        {%- endfor -%} {% endcomment %}
+      </div>
+      
+      <script src="{{ 'product-recommendations.js' | asset_url }}" defer="defer"></script>
+      {% comment %} <product-recommendations class="complementary-products no-js-hidden" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary">
         {%- if recommendations.performed and recommendations.products_count > 0 -%}
 
           <div class="complementary-products--inner">
-            {% for sample in product.metafields.custom.sample_products.value %}
-              {%- render 'product-card-small', product_small: sample, quick_add: true -%}
-            {% endfor %}
+            
 
             {%- if block.settings.block_heading != blank -%}
               <div class="complementary-products--heading">{{ block.settings.block_heading }}</div>
@@ -185,9 +198,9 @@
               {%- render 'product-card-small', product_small: recommended_product, quick_add: true -%}
             {%- endfor -%} {% endcomment %}
           </div>
-          <script src="{{ 'product-recommendations.js' | asset_url }}" defer="defer"></script>
+          
         {%- endif -%}
-      </product-recommendations>
+      </product-recommendations> {% endcomment %}
     {%- when 'image' -%}
       <div class="product-information--image {{ block.settings.position }}" {{ block.shopify_attributes }}>
         {% if block.settings.image %}
