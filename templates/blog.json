@@ -13,7 +13,7 @@
       "type": "main-blog-header",
       "settings": {
         "heading": "Blog posts",
-        "description": "<p>Add a short description for your blog.<\/p>",
+        "description": "",
         "show_category_list": true
       }
     },
