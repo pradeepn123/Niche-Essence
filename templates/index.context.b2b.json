@@ -4,6 +4,13 @@
     "b2b": true
   },
   "sections": {
+    "featured_collection_EyExmr": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "16614195534fb74bc3": {
       "disabled": false,
       "settings": {
@@ -11,14 +18,14 @@
       "blocks": {
       }
     },
-    "featured_collection_jhQ3DT": {
+    "166366584621bc44f2": {
       "disabled": false,
       "settings": {
       },
       "blocks": {
       }
     },
-    "featured_collection_EyExmr": {
+    "spacer_3EDfTQ": {
       "disabled": true,
       "settings": {
       },
@@ -41,20 +48,6 @@
     },
     "16626364694d37e9d5": {
       "disabled": true,
-      "settings": {
-      },
-      "blocks": {
-      }
-    },
-    "spacer_3EDfTQ": {
-      "disabled": true,
-      "settings": {
-      },
-      "blocks": {
-      }
-    },
-    "166366584621bc44f2": {
-      "disabled": false,
       "settings": {
       },
       "blocks": {
