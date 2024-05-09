@@ -127,8 +127,8 @@
       "disabled": true,
       "settings": {
         "heading": "Shop by Category",
-        "heading_left": false,
-        "description": "<p>Add a short description for your collections<\/p>",
+        "heading_left": true,
+        "description": "",
         "full_width": true,
         "collection_list": [
 
