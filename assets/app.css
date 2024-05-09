@@ -3282,7 +3282,8 @@ select {
   width: 100%;
   align-items: flex-start;
   max-width: 400px;
-  margin-bottom: 20px; }
+  /* margin-bottom: 20px;  */
+}
   .product-cart-item-image {
     position: relative;
     flex-shrink: 0;
@@ -3328,12 +3329,12 @@ select {
         display: block; }
   .product-cart-item img,
   .product-cart-item .thb-placeholder {
-    width: 75px;
+    width: 64px;
     height: auto; }
     @media only screen and (min-width: 768px) {
       .product-cart-item img,
       .product-cart-item .thb-placeholder {
-        width: 96px; } }
+        width: 64px; } }
   .product-cart-item .text-button {
     margin-top: 5px;
     font-size: 0.75rem;
