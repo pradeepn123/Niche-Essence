@@ -35,7 +35,7 @@
           "settings": {
             "icon": "heart",
             "heading": "",
-            "text": "<h6><strong>Loyalty Points & Rewards<\/strong><\/h6><p><a href=\"https:\/\/www.nicheessence.com\/apps\/help-center#hc-loyalty-points\" title=\"https:\/\/www.nicheessence.com\/apps\/help-center#hc-loyalty-points\">Learn More<\/a><\/p>"
+            "text": "<h6><strong>Loyalty Points & Rewards<\/strong><\/h6><p><a href=\"#\" title=\"#\">Learn More<\/a><\/p>"
           }
         }
       },
@@ -148,7 +148,7 @@
           "type": "menu",
           "settings": {
             "column_size": "medium",
-            "title": "RESOURCES",
+            "title": "LINKS",
             "menu": "footer"
           }
         },
@@ -156,8 +156,8 @@
           "type": "menu",
           "settings": {
             "column_size": "medium",
-            "title": "FOR PARTNERS",
-            "menu": "footer-partner"
+            "title": "LINKS",
+            "menu": "footer"
           }
         },
         "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2": {

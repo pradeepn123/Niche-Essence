@@ -426,10 +426,5 @@
       "message": "Message",
       "max_characters": "{{ max_chars }} characters max"
     }
-  },
-  "shopify": {
-    "links": {
-      "powered_by_shopify": " "
-    }
   }
 }

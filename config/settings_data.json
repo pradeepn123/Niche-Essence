@@ -24,10 +24,10 @@
     "color_price": "#35302e",
     "color_stars": "#aa822c",
     "color_dots": "#35302e",
-    "color_footer_text": "#4d3100",
-    "color_footer_link": "#4d3100",
+    "color_footer_text": "#563f14",
+    "color_footer_link": "#7b5716",
     "color_footer_link_hover": "#aa822c",
-    "color_footer_border": "#4d3100",
+    "color_footer_border": "#aa822c",
     "color_footer_bg": "#e1c478",
     "section_spacing_mobile": 30,
     "section_spacing_desktop": 40,
@@ -41,12 +41,10 @@
     "products_hover_images_count": 1,
     "products_hover_dots": false,
     "show_products_swatches": false,
-    "show_products_rating": true,
-    "sale_badge_type": "save_percentage",
-    "color_badge_sale": "#ae1b1b",
+    "show_products_rating": false,
+    "color_badge_sale": "#aa822c",
     "free_shipping": false,
     "currency_code_enabled": true,
-    "favicon": "shopify:\/\/shop_images\/niche_essence_logo_mark_white.jpg",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -201,12 +199,6 @@
           "disableBundledCSS": false,
           "disableBundledFonts": false,
           "useClassIsolator": false
-        }
-      },
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
         }
       }
     }
@@ -1091,6 +1083,8 @@
   },
   "platform_customizations": {
     "custom_css": [
+      ".product-featured-image {background-color: black;}",
+      ".product-primary-image {opacity: 0.97;}",
       ".product-card-title {color: black;}",
       ".price {font-weight: 400;}"
     ]
