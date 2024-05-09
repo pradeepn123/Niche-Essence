@@ -30,6 +30,17 @@
 
 	assign timezone = 1 | date: '%z'
 
+	assign enable_auto_timer = section.settings.enable_auto_sale_timer
+	assign automated_timer_timezone = section.settings.auto_timer_timezone
+	assign automated_timer_start_day = section.settings.auto_start_timer_day | default: 0
+	assign automated_timer_start_hour = section.settings.auto_start_timer_hour | default: 00
+	assign automated_timer_start_minutes = section.settings.auto_start_timer_minute | default: 00
+	assign automated_timer_end_day = section.settings.auto_end_timer_day | default: 1
+	assign automated_timer_end_hour = section.settings.auto_end_timer_hour | default: 00
+	assign automated_timer_end_minutes = section.settings.auto_end_timer_minute | default: 00
+
+	
+
 	capture date
 		echo timer_day | append: '-' | append: timer_month | append: '-' | append: timer_year
 	endcapture
@@ -50,6 +61,10 @@
 		else
 			assign mobile_image_height = 500
 	endcase
+
+	capture automated_timer_date 
+	  echo automated_timer_timezone | append: '-' | append: automated_timer_start_day | append: '-' | append: automated_timer_start_hour | append: '-' | append: automated_timer_start_minutes | append: '-' | append: automated_timer_end_day | append: '-' | append: automated_timer_end_hour | append: '-' | append: automated_timer_end_minutes
+	endcapture
 -%}
 <div class="row {{ section_width }}">
 	<div class="small-12 columns">
@@ -81,14 +96,18 @@
 						<p class="subheading">{{ subheading }}</p>
 					{%- endif -%}
 					{%- if heading != blank -%}
-						<h2 class="{{ heading_size }}">{{ heading }}</h2>
+						<h2 data-timer-heading class="{{ heading_size }}">{{ heading }}</h2>
 					{% endif %}
 					{%- if content != blank -%}
 						<p class="description-size--{{ content_size }}">{{ content | newline_to_br }}</p>
 					{%- endif -%}
 				</div>
 				<div class="countdown-banner--timer">
-					<countdown-timer class="countdown-timer" data-date="{{ date }}" data-time="{{ time }}" data-timezone="{{ timezone }}">
+					<countdown-timer class="countdown-timer" data-date="{{ date }}" data-time="{{ time }}" data-timezone="{{ timezone }}" 
+						{%  if enable_auto_timer %}
+						    data-automatic-sale-timer="{{automated_timer_date}}"
+						{%  endif %}
+					>
 						<div class="countdown-timer--column days">
 							<span class="countdown-timer--column--number">0</span>
 							<span class="countdown-timer--column--text">{{ 'sections.countdown_banner.days' | t }}</span>
@@ -617,6 +636,806 @@
 		{
 			"type": "select",
 			"id": "timer_minute",
+			"label": "Minute",
+			"options": [
+				{
+					"value": "00",
+					"label": "00"
+				},
+				{
+					"value": "01",
+					"label": "01"
+				},
+				{
+					"value": "02",
+					"label": "02"
+				},
+				{
+					"value": "03",
+					"label": "03"
+				},
+				{
+					"value": "04"
+				},
+				{
+					"value": "05",
+					"label": "05"
+				},
+				{
+					"value": "06",
+					"label": "06"
+				},
+				{
+					"value": "07",
+					"label": "07"
+				},
+				{
+					"value": "08",
+					"label": "08"
+				},
+				{
+					"value": "09",
+					"label": "09"
+				},
+				{
+					"value": "10",
+					"label": "10"
+				},
+				{
+					"value": "11",
+					"label": "11"
+				},
+				{
+					"value": "12",
+					"label": "12"
+				},
+				{
+					"value": "13",
+					"label": "13"
+				},
+				{
+					"value": "14",
+					"label": "14"
+				},
+				{
+					"value": "15",
+					"label": "15"
+				},
+				{
+					"value": "16",
+					"label": "16"
+				},
+				{
+					"value": "17",
+					"label": "17"
+				},
+				{
+					"value": "18",
+					"label": "18"
+				},
+				{
+					"value": "19",
+					"label": "19"
+				},
+				{
+					"value": "20",
+					"label": "20"
+				},
+				{
+					"value": "21",
+					"label": "21"
+				},
+				{
+					"value": "22",
+					"label": "23"
+				},
+				{
+					"value": "24",
+					"label": "24"
+				},
+				{
+					"value": "25",
+					"label": "25"
+				},
+				{
+					"value": "26",
+					"label": "26"
+				},
+				{
+					"value": "27",
+					"label": "27"
+				},
+				{
+					"value": "28",
+					"label": "28"
+				},
+				{
+					"value": "29",
+					"label": "29"
+				},
+				{
+					"value": "30",
+					"label": "30"
+				},
+				{
+					"value": "31",
+					"label": "31"
+				},
+				{
+					"value": "32",
+					"label": "32"
+				},
+				{
+					"value": "33",
+					"label": "33"
+				},
+				{
+					"value": "34",
+					"label": "34"
+				},
+				{
+					"value": "35",
+					"label": "35"
+				},
+				{
+					"value": "36",
+					"label": "36"
+				},
+				{
+					"value": "37",
+					"label": "37"
+				},
+				{
+					"value": "38",
+					"label": "38"
+				},
+				{
+					"value": "39",
+					"label": "39"
+				},
+				{
+					"value": "40",
+					"label": "40"
+				},
+				{
+					"value": "41",
+					"label": "41"
+				},
+				{
+					"value": "42",
+					"label": "42"
+				},
+				{
+					"value": "43",
+					"label": "43"
+				},
+				{
+					"value": "44",
+					"label": "44"
+				},
+				{
+					"value": "45",
+					"label": "45"
+				},
+				{
+					"value": "46",
+					"label": "46"
+				},
+				{
+					"value": "47",
+					"label": "47"
+				},
+				{
+					"value": "48",
+					"label": "48"
+				},
+				{
+					"value": "49",
+					"label": "49"
+				},
+				{
+					"value": "50",
+					"label": "50"
+				},
+				{
+					"value": "51",
+					"label": "51"
+				},
+				{
+					"value": "52",
+					"label": "52"
+				},
+				{
+					"value": "53",
+					"label": "53"
+				},
+				{
+					"value": "54",
+					"label": "54"
+				},
+				{
+					"value": "55",
+					"label": "55"
+				},
+				{
+					"value": "56",
+					"label": "56"
+				},
+				{
+					"value": "57",
+					"label": "57"
+				},
+				{
+					"value": "58",
+					"label": "58"
+				},
+				{
+					"value": "59",
+					"label": "59"
+				}
+			],
+			"default": "00"
+		},
+		{
+			"type": "header",
+			"content": "Automated Timer"
+		},
+		{
+			"type": "checkbox",
+			"id": "enable_auto_sale_timer",
+			"label": "Enable auto sale timer",
+			"default": true
+		},
+		{
+			"type": "select",
+			"id": "auto_timer_timezone",
+			"label": "Timezone",
+			"options": [
+				{
+					"value": "Europe/London",
+					"label": "Europe/London"
+				},
+				{
+					"value": "Asia/Kolkata",
+					"label": "Asia/Kolkata"
+				}
+			],
+			"default": "Asia/Kolkata"
+		},
+		{
+			"type": "header",
+			"content": "Sale Start Config"
+		},
+		{
+			"type": "select",
+			"id": "auto_start_timer_day",
+			"label": "Day",
+			"options": [
+				{
+					"value": "00",
+					"label": "Sunday"
+				},
+				{
+					"value": "01",
+					"label": "Monday"
+				},
+				{
+					"value": "02",
+					"label": "Tuesday"
+				},
+				{
+					"value": "03",
+					"label": "Wednesday"
+				},
+				{
+					"value": "04",
+					"label": "Thursday"
+				},
+				{
+					"value": "05",
+					"label": "Friday"
+				},
+				{
+					"value": "06",
+					"label": "Saturday"
+				}
+			],
+			"default": "00"
+		},
+		{
+			"type": "select",
+			"id": "auto_start_timer_hour",
+			"label": "Hour",
+			"options": [
+				{
+					"value": "00",
+					"label": "12 AM (Midnight)"
+				},
+				{
+					"value": "01",
+					"label": "01 AM"
+				},
+				{
+					"value": "02",
+					"label": "02 AM"
+				},
+				{
+					"value": "03",
+					"label": "03 AM"
+				},
+				{
+					"value": "04",
+					"label": "04 AM"
+				},
+				{
+					"value": "05",
+					"label": "05 AM"
+				},
+				{
+					"value": "06",
+					"label": "06 AM"
+				},
+				{
+					"value": "07",
+					"label": "07 AM"
+				},
+				{
+					"value": "08",
+					"label": "08 AM"
+				},
+				{
+					"value": "09",
+					"label": "09 AM"
+				},
+				{
+					"value": "10",
+					"label": "10 AM"
+				},
+				{
+					"value": "11",
+					"label": "11 AM"
+				},
+				{
+					"value": "12",
+					"label": "12 PM (Noon)"
+				},
+				{
+					"value": "13",
+					"label": "01 PM"
+				},
+				{
+					"value": "14",
+					"label": "02 PM"
+				},
+				{
+					"value": "15",
+					"label": "03 PM"
+				},
+				{
+					"value": "16",
+					"label": "04 PM"
+				},
+				{
+					"value": "17",
+					"label": "05 PM"
+				},
+				{
+					"value": "18",
+					"label": "06 PM"
+				},
+				{
+					"value": "19",
+					"label": "07 PM"
+				},
+				{
+					"value": "20",
+					"label": "08 PM"
+				},
+				{
+					"value": "21",
+					"label": "09 PM"
+				},
+				{
+					"value": "22",
+					"label": "10 PM"
+				},
+				{
+					"value": "23",
+					"label": "11 PM"
+				}
+			],
+			"default": "00"
+		},
+		{
+			"type": "select",
+			"id": "auto_start_timer_minute",
+			"label": "Minute",
+			"options": [
+				{
+					"value": "00",
+					"label": "00"
+				},
+				{
+					"value": "01",
+					"label": "01"
+				},
+				{
+					"value": "02",
+					"label": "02"
+				},
+				{
+					"value": "03",
+					"label": "03"
+				},
+				{
+					"value": "04"
+				},
+				{
+					"value": "05",
+					"label": "05"
+				},
+				{
+					"value": "06",
+					"label": "06"
+				},
+				{
+					"value": "07",
+					"label": "07"
+				},
+				{
+					"value": "08",
+					"label": "08"
+				},
+				{
+					"value": "09",
+					"label": "09"
+				},
+				{
+					"value": "10",
+					"label": "10"
+				},
+				{
+					"value": "11",
+					"label": "11"
+				},
+				{
+					"value": "12",
+					"label": "12"
+				},
+				{
+					"value": "13",
+					"label": "13"
+				},
+				{
+					"value": "14",
+					"label": "14"
+				},
+				{
+					"value": "15",
+					"label": "15"
+				},
+				{
+					"value": "16",
+					"label": "16"
+				},
+				{
+					"value": "17",
+					"label": "17"
+				},
+				{
+					"value": "18",
+					"label": "18"
+				},
+				{
+					"value": "19",
+					"label": "19"
+				},
+				{
+					"value": "20",
+					"label": "20"
+				},
+				{
+					"value": "21",
+					"label": "21"
+				},
+				{
+					"value": "22",
+					"label": "23"
+				},
+				{
+					"value": "24",
+					"label": "24"
+				},
+				{
+					"value": "25",
+					"label": "25"
+				},
+				{
+					"value": "26",
+					"label": "26"
+				},
+				{
+					"value": "27",
+					"label": "27"
+				},
+				{
+					"value": "28",
+					"label": "28"
+				},
+				{
+					"value": "29",
+					"label": "29"
+				},
+				{
+					"value": "30",
+					"label": "30"
+				},
+				{
+					"value": "31",
+					"label": "31"
+				},
+				{
+					"value": "32",
+					"label": "32"
+				},
+				{
+					"value": "33",
+					"label": "33"
+				},
+				{
+					"value": "34",
+					"label": "34"
+				},
+				{
+					"value": "35",
+					"label": "35"
+				},
+				{
+					"value": "36",
+					"label": "36"
+				},
+				{
+					"value": "37",
+					"label": "37"
+				},
+				{
+					"value": "38",
+					"label": "38"
+				},
+				{
+					"value": "39",
+					"label": "39"
+				},
+				{
+					"value": "40",
+					"label": "40"
+				},
+				{
+					"value": "41",
+					"label": "41"
+				},
+				{
+					"value": "42",
+					"label": "42"
+				},
+				{
+					"value": "43",
+					"label": "43"
+				},
+				{
+					"value": "44",
+					"label": "44"
+				},
+				{
+					"value": "45",
+					"label": "45"
+				},
+				{
+					"value": "46",
+					"label": "46"
+				},
+				{
+					"value": "47",
+					"label": "47"
+				},
+				{
+					"value": "48",
+					"label": "48"
+				},
+				{
+					"value": "49",
+					"label": "49"
+				},
+				{
+					"value": "50",
+					"label": "50"
+				},
+				{
+					"value": "51",
+					"label": "51"
+				},
+				{
+					"value": "52",
+					"label": "52"
+				},
+				{
+					"value": "53",
+					"label": "53"
+				},
+				{
+					"value": "54",
+					"label": "54"
+				},
+				{
+					"value": "55",
+					"label": "55"
+				},
+				{
+					"value": "56",
+					"label": "56"
+				},
+				{
+					"value": "57",
+					"label": "57"
+				},
+				{
+					"value": "58",
+					"label": "58"
+				},
+				{
+					"value": "59",
+					"label": "59"
+				}
+			],
+			"default": "00"
+		},
+		{
+			"type": "header",
+			"content": "Sale End Config"
+		},
+		{
+			"type": "select",
+			"id": "auto_end_timer_day",
+			"label": "Day",
+			"options": [
+				{
+					"value": "00",
+					"label": "Sunday"
+				},
+				{
+					"value": "01",
+					"label": "Monday"
+				},
+				{
+					"value": "02",
+					"label": "Tuesday"
+				},
+				{
+					"value": "03",
+					"label": "Wednesday"
+				},
+				{
+					"value": "04",
+					"label": "Thursday"
+				},
+				{
+					"value": "05",
+					"label": "Friday"
+				},
+				{
+					"value": "06",
+					"label": "Saturday"
+				}
+			],
+			"default": "01"
+		},
+		{
+			"type": "select",
+			"id": "auto_end_timer_hour",
+			"label": "Hour",
+			"options": [
+				{
+					"value": "00",
+					"label": "12 AM (Midnight)"
+				},
+				{
+					"value": "01",
+					"label": "01 AM"
+				},
+				{
+					"value": "02",
+					"label": "02 AM"
+				},
+				{
+					"value": "03",
+					"label": "03 AM"
+				},
+				{
+					"value": "04",
+					"label": "04 AM"
+				},
+				{
+					"value": "05",
+					"label": "05 AM"
+				},
+				{
+					"value": "06",
+					"label": "06 AM"
+				},
+				{
+					"value": "07",
+					"label": "07 AM"
+				},
+				{
+					"value": "08",
+					"label": "08 AM"
+				},
+				{
+					"value": "09",
+					"label": "09 AM"
+				},
+				{
+					"value": "10",
+					"label": "10 AM"
+				},
+				{
+					"value": "11",
+					"label": "11 AM"
+				},
+				{
+					"value": "12",
+					"label": "12 PM (Noon)"
+				},
+				{
+					"value": "13",
+					"label": "01 PM"
+				},
+				{
+					"value": "14",
+					"label": "02 PM"
+				},
+				{
+					"value": "15",
+					"label": "03 PM"
+				},
+				{
+					"value": "16",
+					"label": "04 PM"
+				},
+				{
+					"value": "17",
+					"label": "05 PM"
+				},
+				{
+					"value": "18",
+					"label": "06 PM"
+				},
+				{
+					"value": "19",
+					"label": "07 PM"
+				},
+				{
+					"value": "20",
+					"label": "08 PM"
+				},
+				{
+					"value": "21",
+					"label": "09 PM"
+				},
+				{
+					"value": "22",
+					"label": "10 PM"
+				},
+				{
+					"value": "23",
+					"label": "11 PM"
+				}
+			],
+			"default": "00"
+		},
+		{
+			"type": "select",
+			"id": "auto_end_timer_minute",
 			"label": "Minute",
 			"options": [
 				{
