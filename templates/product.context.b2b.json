@@ -4,6 +4,7 @@
     "b2b": true
   },
   "sections": {
+<<<<<<< HEAD
     "background_video_DWcP8t": {
       "disabled": true,
       "settings": {
@@ -46,5 +47,7 @@
       "blocks": {
       }
     }
+=======
+>>>>>>> 1b246d6 (Update from Shopify for theme Reformation/master)
   }
 }
