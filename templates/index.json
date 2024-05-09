@@ -122,6 +122,30 @@
         "disable_bottom_spacing": false
       }
     },
+    "collection_list_AM3wEk": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "Shop by Category",
+        "heading_left": false,
+        "description": "<p>Add a short description for your collections<\/p>",
+        "full_width": true,
+        "collection_list": [
+
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style1",
+        "columns_desktop": 4,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "166143150135dd97e2": {
       "type": "gallery",
       "blocks": {
@@ -732,6 +756,7 @@
   "order": [
     "16479477632637c9a7",
     "featured_collection_jhQ3DT",
+    "collection_list_AM3wEk",
     "166143150135dd97e2",
     "featured_collection_EyExmr",
     "16614195534fb74bc3",
