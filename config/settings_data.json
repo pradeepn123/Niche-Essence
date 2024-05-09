@@ -45,6 +45,7 @@
     "color_badge_sale": "#aa822c",
     "free_shipping": false,
     "currency_code_enabled": true,
+    "favicon": "shopify:\/\/shop_images\/niche_essence_logo_mark_white.jpg",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
