@@ -111,7 +111,7 @@
         "subheading": "",
         "heading": "",
         "text": "",
-        "lightbox_button": true,
+        "lightbox_button": false,
         "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "overlay_opacity": 25,
         "disable_top_spacing": true,
