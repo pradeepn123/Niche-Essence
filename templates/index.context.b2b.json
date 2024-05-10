@@ -4,6 +4,13 @@
     "b2b": true
   },
   "sections": {
+    "collection_list_AM3wEk": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "featured_collection_EyExmr": {
       "disabled": true,
       "settings": {
@@ -53,8 +60,8 @@
       "blocks": {
       }
     },
-    "collection_list_AM3wEk": {
-      "disabled": false,
+    "featured_collection_jhQ3DT": {
+      "disabled": true,
       "settings": {
       },
       "blocks": {
