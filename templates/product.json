@@ -233,6 +233,30 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "collection_list_LdgBmK": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "Shop by Category",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style1",
+        "columns_desktop": 4,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -245,6 +269,7 @@
     "spacer_wAJA4w",
     "1714377135160735f2",
     "spacer_CEAMa8",
-    "product-recommendations"
+    "product-recommendations",
+    "collection_list_LdgBmK"
   ]
 }
