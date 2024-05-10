@@ -4,5 +4,12 @@
     "b2b": true
   },
   "sections": {
+    "product-grid": {
+      "settings": {
+        "facets_desktop": "sidebar"
+      },
+      "blocks": {
+      }
+    }
   }
 }
