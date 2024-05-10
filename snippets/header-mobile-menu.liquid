@@ -73,12 +73,13 @@
 											</ul>
 										</details>
 										{%- else -%}
-										<a href="{{ l.url }}" title="{{ l.title | escape }}">{{ l.title }}</a>
+										<a href="{{ l.url }}" title="{{ l.title | escape }}" class="{% if l.title == "View All Brands" %}menu-view-all-btn{% endif %} {% if l.title == "Top Brands" %}menu-secondary-header{% endif %}">{{ l.title }}</a>
 									  {%- endif -%}
 									</li>
 								{%- endfor -%}
 
 								{% if has_mega_menu == true %}
+								<div class="{% if  mega_menu_block.settings.promo_1_image and  mega_menu_block.settings.promo_2_image%} menu_mobile_images {% endif %}">
 									{%- if mega_menu_block.settings.promo_1_image -%}
 									<li>
 										{% render 'header-full-menu-promotion', promotion_image: mega_menu_block.settings.promo_1_image, promotion_link: mega_menu_block.settings.promo_1_link, promotion_heading: mega_menu_block.settings.promo_1_heading, promotion_link_label: mega_menu_block.settings.promo_1_link_label %}
@@ -89,6 +90,17 @@
 										{% render 'header-full-menu-promotion', promotion_image: mega_menu_block.settings.promo_2_image, promotion_link: mega_menu_block.settings.promo_2_link, promotion_heading: mega_menu_block.settings.promo_2_heading, promotion_link_label: mega_menu_block.settings.promo_2_link_label %}
 									</li>
 									{%- endif -%}
+									{%- if mega_menu_block.settings.promo_3_image -%}
+										<li>
+										{% render 'header-full-menu-promotion', promotion_image: mega_menu_block.settings.promo_3_image, promotion_link: mega_menu_block.settings.promo_3_link, promotion_heading: mega_menu_block.settings.promo_3_heading, promotion_link_label: mega_menu_block.settings.promo_3_link_label %}
+										</li>
+									{%- endif -%}
+									{%- if mega_menu_block.settings.promo_4_image -%}
+										<li>
+										{% render 'header-full-menu-promotion', promotion_image: mega_menu_block.settings.promo_4_image, promotion_link: mega_menu_block.settings.promo_4_link, promotion_heading: mega_menu_block.settings.promo_4_heading, promotion_link_label: mega_menu_block.settings.promo_4_link_label %}
+										</li>
+									{%- endif -%}
+								</div>
 								{%- endif -%}
 					    </ul>
 						</details>

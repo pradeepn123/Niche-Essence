@@ -1,0 +1,110 @@
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[3]!./scss/sections/common.scss ***!
+  \**********************************************************************************************************************************************************************************************************************/
+:root {
+  --base-margin: 20px;
+  --grid-row-gap: 10px;
+  --grid-row-gap-large: 20px;
+  --section-content-margin: 16px;
+  --section-margin: 20px;
+  --section-padding:20px;
+  --section-heading-margin: 10px;
+  --grid-column-gap: 10px;
+  --header-padding: 10px;
+  --nav-vertical-padding: 15px;
+}
+@media (min-width: 768px) {
+  :root {
+    --grid-column-gap: 20px;
+    --grid-row-gap: 20px;
+    --header-padding: 18px;
+    --base-margin: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  :root {
+    --base-margin: 40px;
+    --section-content-margin: 20px;
+    --section-margin: 20px;
+    --section-padding:20px;
+    --section-heading-margin: 20px;
+    --grid-row-gap-large: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .sub-menu.mega-menu-container .mega-menu_link_with_imagies ul li {
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1067px) {
+  .menu-item-new-list {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .sub-menu li {
+    padding: 0px 15px;
+  }
+}
+
+.menu_mobile_images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.menu_mobile_images li {
+  padding: 0;
+}
+.menu_mobile_images img {
+  width: 100%;
+  height: auto;
+}
+.menu_mobile_images .mega-menu-promotion {
+  width: 100% !important;
+  margin: 0 0px !important;
+}
+
+.mega-menu-promotion--cover p {
+  font-size: 10px;
+  line-height: 1.4;
+}
+@media (min-width: 390px) {
+  .mega-menu-promotion--cover p {
+    font-size: 1rem;
+    line-height: 1.375rem;
+  }
+}
+
+.mega-menu-columns.Brands.menu-item-new-list li a {
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.menu-view-all-btn {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  text-transform: capitalize !important;
+  font-weight: 700 !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.menu-view-all-btn:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+.menu-view-all-btn::after {
+  content: none;
+}
+
+.menu-secondary-header {
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  pointer-events: none;
+}

@@ -18,7 +18,7 @@
 					endif
 				endfor
 			-%}
-		  <li role="menuitem" class="{% if has_sub_menu or has_mega_menu %}menu-item-has-children{% endif %}{% if has_mega_menu %} menu-item-has-megamenu{% endif %}{% if link.active %} active{% endif %}" {% if has_sub_menu %}data-item-title="{{ link.title | escape }}"{% endif %}>
+		  <li role="menuitem" class="{% if has_sub_menu or has_mega_menu %}menu-item-has-children{% endif %}{% if has_mega_menu %} menu-item-has-megamenu{% endif %}{% if link.active %} active{% endif %} 	{{- link.title -}}" {% if has_sub_menu %}data-item-title="{{ link.title | escape }}"{% endif %}>
 		    <a href="{{ link.url }}"{%- if link.active %} aria-current="page"{% endif -%}>
 					{{- link.title -}}
 					{%- if has_sub_menu or has_mega_menu -%}{%- render 'svg-icons' with 'thb-dropdown-bottom' -%}{%- endif -%}
@@ -57,10 +57,11 @@
 					-%}
 					<div class="sub-menu mega-menu-container" tabindex="-1">
 						{%- if has_sub_menu -%}
-				    <ul class="mega-menu-columns" tabindex="-1">
+				<div class="mega-menu_link_with_imagies ">
+				    <ul class="mega-menu-columns {{ link.title }} {% if link.title == "Brands" %} menu-item-new-list{% endif %}" tabindex="-1">
 			        {%- for l in link.links -%}
 				        <li class="{% if l.active %} active{% endif %}" role="none">
-				          <a href="{{ l.url }}" class="mega-menu-columns__heading" role="menuitem">{{ l.title }}</a>
+				          <a href="{{ l.url }}" class="mega-menu-columns__heading {% if l.title == "View All Brands" %}menu-view-all-btn{% endif %} {% if l.title == "Top Brands" %}menu-secondary-header{% endif %}" role="menuitem">{{ l.title }}</a>
 									{%- if l.links.size > 0 -%}
 										<ul role="menu">
 											{%- for sub_link in l.links -%}
@@ -73,6 +74,7 @@
 				        </li>
 							{%- endfor -%}
 				    </ul>
+				</div>
 						{%- endif -%}
 						{% if has_mega_menu %}
 							{%- if mega_menu_block.settings.promo_1_image -%}

@@ -147,6 +147,13 @@
 			"info": "Learn how to set up [mega menus](https://documentation.fuelthemes.net/kb/how-do-i-set-up-mega-menus-for-reformation-theme/)."
 		},
 		{
+			"type": "checkbox",
+			"id": "new_tab",
+			"label": "Open promotion links in new tab",
+			"default": true,
+			"info": "When enabled, all promotion links in the menu will open in a new tab."
+		},
+		{
 			"type": "header",
 			"content": "Transparent header"
 		},
@@ -214,6 +221,11 @@
 			"type": "url",
 			"id": "mobile_promo_link",
 			"label": "Promotion button link"
+		},
+		{
+			"type": "checkbox",
+			"id": "is_collection_link",
+			"label": "Active available filters in collection"
 		}
 	],
 	"blocks": [
@@ -279,15 +291,21 @@
 		      ]
 				},
 				{
+					"type": "checkbox",
+					"id": "promo_small",
+					"default": false,
+					"label": "Show 2 Promotions in a row (Mobile)"
+				},
+				{
 					"type": "header",
 					"content": "Promotion 1"
 				},
 				{
-	        "type": "image_picker",
-	        "id": "promo_1_image",
-	        "label": "Image",
+					"type": "image_picker",
+					"id": "promo_1_image",
+					"label": "Image",
 					"info": "360 x 420 px .jpg recommended."
-	      },
+				},
 				{
 					"type": "text",
 					"id": "promo_1_heading",

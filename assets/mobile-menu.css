@@ -103,7 +103,7 @@
     align-items: center;
     min-height: 60px;
     padding: 5px 0;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 0.05em;
     border-bottom: 1px solid var(--color-header-border, var(--color-border));
     color: var(--color-header-links, --color-accent); }
@@ -153,7 +153,7 @@
     transform: translateX(100%);
     margin-left: 0;
     list-style: none;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     visibility: hidden; }
     @media only screen and (min-width: 768px) {
       .mobile-menu .sub-menu {

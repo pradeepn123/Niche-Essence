@@ -36,6 +36,8 @@
 	{% render 'social-meta-tags' %}
 
 	{{ 'app.css' | asset_url | stylesheet_tag }}
+	{{ 'common-imports.css' | asset_url | stylesheet_tag }}
+	{{ 'common.css' | asset_url | stylesheet_tag }}
 
 	{% render 'head-variables' %}
 
