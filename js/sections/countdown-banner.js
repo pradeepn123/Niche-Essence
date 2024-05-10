@@ -1,4 +1,4 @@
-import moment from "moment-timezone";
+import moment from "moment";
 
 if (!customElements.get('countdown-timer')) {
   class CountdownTimer extends HTMLElement {
@@ -48,8 +48,8 @@ if (!customElements.get('countdown-timer')) {
           //check if timer has started ,if yes, just set the distance or remaining time as the end date, show the sale end timer
           //else, set the distance as the starting date, to show when sale will start
 
-          const dateData = _this.automaticSaleTimer.split('-'),
-          timezoneString = dateData[0], //timezone
+          const dateData = _this.automaticSaleTimer.split(':'),
+          timeZoneOffset = `${dateData[0]}`,
           startDayIndex = parseInt(dateData[1]), //indexed weekdays starting from sunday and 0 index, 0: sunday,
           startHour = parseInt(dateData[2]),
           startMinute = parseInt(dateData[3]),
@@ -58,43 +58,64 @@ if (!customElements.get('countdown-timer')) {
           endMinute = parseInt(dateData[6]);
 
 
+          const getnextDay = (dateInstance, index) => {
+            if (!(dateInstance.getDay() == index)) {
+                dateInstance.setDate(dateInstance.getDate() + (((index + 7 - dateInstance.getDay()) % 7) || 7));
+            }
+            return dateInstance;
+          }
+
+          const getConvertedTime = (dateInstance) => {
+            const localTime = dateInstance.getTime();
+            const convertedTime = moment(localTime).utcOffset(timeZoneOffset).format('YYYY-MM-DD HH:mm:ss')
+            return new Date(convertedTime);
+          }
+
+          const setHours = (dateInstance, hour, min) => {
+            return dateInstance.setHours(hour, min, 0, 0) //from shopify
+          }
+
+
           //convert current time into given timezone into needed timezone
-          now = now.getTime();
+          now = getConvertedTime(now);
 
           //Get start day in milliseconds
           let startDay = new Date();
-          if (!(startDay.getDay() == startDayIndex)) {
-            startDay.setDate(startDay.getDate() + (((startDayIndex + 7 - startDay.getDay()) % 7) || 7));
-          }
-          startDay.setHours(startHour, startMinute, 0, 0) //from shopify
-          startDay = moment.tz(startDay, timezoneString);
-          startDay = startDay.format('YYYY-MM-DD HH:mm'); //timezone convert and format
-          startDay = new Date(startDay).getTime() //get the converted date into milliseconds
-          
+          startDay = getConvertedTime(startDay);
+          startDay = getnextDay(startDay, startDayIndex);
+          startDay = setHours(startDay, startHour, startMinute)
+
+
         //Get end day in milliseconds with timezone difference added
-          let endDay = new Date();
-          if (!(endDay.getDay() == endDayIndex)) {
-            endDay.setDate(endDay.getDate() + (((endDayIndex + 7 - endDay.getDay()) % 7) || 7));
-          }
-          endDay.setHours(endHour, endMinute, 0, 0) //from shopify
-          endDay = moment.tz(endDay, timezoneString);
-          endDay = endDay.format('YYYY-MM-DD HH:mm');  //timezone convert and format
-          endDay = new Date(endDay).getTime() //get the converted date into milliseconds
-          let saleText = 'STARTS';
-          _this.countDownDate = endDay;
-          let startingDistance = endDay - now; //check if sale has already started
+       //Get start day in milliseconds
+            let endDay = new Date();
+            endDay = getConvertedTime(endDay);
+            endDay = getnextDay(endDay, endDayIndex);
+            endDay = setHours(endDay, endHour, endMinute)
+
+            console.log(new Date(startDay), "Start day");
+            console.log(new Date(endDay), "End day");
+            console.log(new Date(now), "now");
+
+
+          let saleText = 'Starts';
+          _this.countDownDate = startDay;
+          let startingDistance = startDay - now; //check if sale has already started
           //it will return 0 if sale has ended, in such case, start counting from the date of next sale
 
           if (startingDistance < 0) {
             //sale has ended so , look for next sale starting date
-            _this.countDownDate = startDay;
+            _this.countDownDate = endDay;
             saleText = 'ENDS';
+            document.querySelector('.countdown-banner--timer .button').classList.add('visible');
           }
+
+    
           document.querySelector('[data-timer-heading]').innerHTML = `SALE ${saleText} IN`;
    
         }
-        console.log(new Date(_this.countDownDate))
         const distance = _this.countDownDate - now;
+        console.log(distance);
 
         // Time calculations for days, hours, minutes and seconds
         let days = Math.floor(distance / (1000 * 60 * 60 * 24));

@@ -63,7 +63,7 @@
 	endcase
 
 	capture automated_timer_date 
-	  echo automated_timer_timezone | append: '-' | append: automated_timer_start_day | append: '-' | append: automated_timer_start_hour | append: '-' | append: automated_timer_start_minutes | append: '-' | append: automated_timer_end_day | append: '-' | append: automated_timer_end_hour | append: '-' | append: automated_timer_end_minutes
+	  echo automated_timer_timezone | append: ':' | append: automated_timer_start_day | append: ':' | append: automated_timer_start_hour | append: ':' | append: automated_timer_start_minutes | append: ':' | append: automated_timer_end_day | append: ':' | append: automated_timer_end_hour | append: ':' | append: automated_timer_end_minutes
 	endcapture
 -%}
 <div class="row {{ section_width }}">
@@ -892,15 +892,14 @@
 			"label": "Timezone",
 			"options": [
 				{
-					"value": "Europe/London",
-					"label": "Europe/London"
+					"value": "-0400",
+					"label": "EST"
 				},
 				{
-					"value": "Asia/Kolkata",
-					"label": "Asia/Kolkata"
+					"value": "+0530",
+					"label": "IST"
 				}
-			],
-			"default": "Asia/Kolkata"
+			]
 		},
 		{
 			"type": "header",

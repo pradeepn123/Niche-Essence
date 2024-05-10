@@ -93,6 +93,16 @@
   .countdown-banner--content, .countdown-banner--timer {
     position: relative;
     z-index: 5; }
+
+    .countdown-banner--timer .button {
+      opacity:0;
+      pointer-events:none;
+    }
+
+    .countdown-banner--timer .button.visible {
+      opacity:1;
+      pointer-events:all;
+    }
   .countdown-banner .countdown-timer {
     display: inline-flex;
     flex-wrap: wrap;
