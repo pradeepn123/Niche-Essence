@@ -68,3 +68,4 @@ if (!customElements.get('modal-opener')) {
   }
   customElements.define('modal-opener', ModalOpener);
 }
+

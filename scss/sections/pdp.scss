@@ -25,6 +25,7 @@
     left: unset !important;
     color: #473715 !important;
     column-gap: 5px;
+    background: #B18D40 !important;
     @media(--xxs){
         width: 55% !important;
     }
@@ -41,5 +42,7 @@
 }
 
 .pdp__image-inner{
-    width: 50% !important;
+    @media(--sm){
+        width: 50% !important; 
+    }
 }

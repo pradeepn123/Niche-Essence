@@ -124,6 +124,7 @@
   -webkit-column-gap: 5px;
      -moz-column-gap: 5px;
           column-gap: 5px;
+  background: #B18D40 !important;
 }
 @media (min-width: 375px) {
   .pdp__quick-view {
@@ -146,6 +147,8 @@
   }
 }
 
-.pdp__image-inner {
-  width: 50% !important;
+@media (min-width: 768px) {
+  .pdp__image-inner {
+    width: 50% !important;
+  }
 }
