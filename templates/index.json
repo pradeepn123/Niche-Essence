@@ -157,7 +157,7 @@
             "title": "Fragrances",
             "text": "Explore a world of captivating fragrances tailored to your style.",
             "link_label": "Shop Fragrances",
-            "link": "",
+            "link": "shopify:\/\/collections\/fragrances",
             "use_text_button": false,
             "block_link": "",
             "product_list": [
@@ -173,7 +173,7 @@
             "title": "Bath & Body",
             "text": "Experience luxury and vitality with our bath and body collection.",
             "link_label": "Shop bath & body",
-            "link": "",
+            "link": "shopify:\/\/collections\/all-bath-body",
             "use_text_button": false,
             "block_link": "",
             "product_list": [
@@ -189,7 +189,7 @@
             "title": "Home Collection",
             "text": "Enhance your home environment with our chic and cozy selection.",
             "link_label": "shop home collection",
-            "link": "",
+            "link": "shopify:\/\/collections\/candles",
             "use_text_button": false,
             "block_link": "",
             "product_list": [
