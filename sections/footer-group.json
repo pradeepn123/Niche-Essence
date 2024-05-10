@@ -156,8 +156,8 @@
           "type": "menu",
           "settings": {
             "column_size": "medium",
-            "title": "LINKS",
-            "menu": "footer"
+            "title": "FOR PARTNERS",
+            "menu": "footer-partner"
           }
         },
         "56d4ccfa-a515-4c26-9e64-c26ec5eea8d2": {
