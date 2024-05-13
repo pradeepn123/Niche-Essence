@@ -61,7 +61,7 @@
     li{
         a{
             text-transform: capitalize;
-            font-weight: 400;
+            font-weight: typography.$medium-weight;
         }
     }
 }
@@ -69,18 +69,16 @@
     text-decoration: underline;
     text-transform: capitalize !important;
     font-weight: typography.$heading-weight !important;
-    transition: all 0.3s ease;
-    &:hover{ 
-        text-decoration: none; 
+    &:hover{
+        color: #AA822C;
     }
-    &::after{
-        content: none;
+    &::after{ 
+        content: unset !important;
     }
 }
 
 .menu-secondary-header{
     text-transform: uppercase !important;
     font-weight: typography.$heading-weight !important;
-    pointer-events: none;
 }
 

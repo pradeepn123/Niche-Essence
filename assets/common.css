@@ -84,7 +84,7 @@
 
 .mega-menu-columns.Brands.menu-item-new-list li a {
   text-transform: capitalize;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .menu-view-all-btn {
@@ -92,19 +92,16 @@
   text-decoration: underline;
   text-transform: capitalize !important;
   font-weight: 700 !important;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 .menu-view-all-btn:hover {
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  color: #AA822C;
 }
 .menu-view-all-btn::after {
-  content: none;
+  content: normal !important;
+  content: initial !important;
 }
 
 .menu-secondary-header {
   text-transform: uppercase !important;
   font-weight: 700 !important;
-  pointer-events: none;
 }
