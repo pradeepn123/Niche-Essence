@@ -95,6 +95,7 @@
     },
     "16623877721f33fb14": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 35,
         "spacer_desktop": 60,
@@ -114,7 +115,7 @@
         "lightbox_button": true,
         "video_hosted": "{{ product.metafields.custom.product_video_upload.value }}",
         "overlay_opacity": 25,
-        "disable_top_spacing": true,
+        "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
     },
