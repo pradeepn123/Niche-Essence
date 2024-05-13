@@ -115,3 +115,10 @@
         opacity: 0.8;
     }
 }
+
+.footer-mediaicons-spacing{
+    @media(--lg){
+        margin-bottom: 20px !important;
+    }
+}
+

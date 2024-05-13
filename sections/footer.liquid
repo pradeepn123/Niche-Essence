@@ -8,6 +8,7 @@
 
 <link rel="stylesheet" href="{{ 'footer.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'footer.css' | asset_url | stylesheet_tag }}</noscript>
+{{- 'common.css' | asset_url | stylesheet_tag -}}
 
 <footer class="footer" id="footer">
 	<div class="row {% if full_width %}full-width-row{% endif %}">
@@ -24,7 +25,7 @@
 					endcase
 				-%}
 			<div class="{{ column_class | escape }} columns" {{ block.shopify_attributes }}>
-				<div class="widget widget--text">
+				<div class="widget widget--text footer-mediaicons-spacing">
 					{%- if block.settings.title != blank -%}
 						<div class="thb-widget-title">{{ block.settings.title }}</div>
 					{%- endif -%}
@@ -167,9 +168,10 @@
 			{%- endif -%}
 		{%- endfor -%}
 	</div>
-	<div class="sub-footer">
+	<div class="sub-footer footer-divider">
 		<div class="row {% if full_width %}full-width-row{% endif %}">
 			<div class="small-12 medium-8 columns">
+				<p>&copy; {{ 'now' | date: "%Y" }} {{ shop.name }}, {{ copyright_text }} {{ powered_by_link }}</p>
 				{% render 'localization', id: 'FooterLocalization', show_language_switcher: show_language_switcher, show_currency_switcher: show_currency_switcher %}
 			</div>
 			<div class="small-12 medium-4 columns">
@@ -184,7 +186,7 @@
 				{%- endif -%}
 			</div>
 			<div class="small-12 columns">
-				<p>&copy; {{ 'now' | date: "%Y" }} {{ shop.name }}, {{ copyright_text }} {{ powered_by_link }}</p>
+			
 				{%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
           <div class="footer--follow-on-shop">
             {{ shop | login_button: action: 'follow' }}
