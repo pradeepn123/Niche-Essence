@@ -357,6 +357,7 @@
         },
         "column_RAdgPa": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_creed.png",
             "block_link": "shopify:\/\/collections\/creed",
@@ -370,6 +371,7 @@
         },
         "column_LktnMJ": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_initio.png",
             "block_link": "shopify:\/\/collections\/initio",
@@ -383,6 +385,7 @@
         },
         "column_Hnr9kp": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_kajal.png",
             "block_link": "shopify:\/\/collections\/kajal",
@@ -396,6 +399,7 @@
         },
         "column_eG6enR": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_nasomatto.png",
             "block_link": "shopify:\/\/collections\/nasomatto",
@@ -409,6 +413,7 @@
         },
         "column_3zwfXF": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_parfums_de_marly.png",
             "block_link": "shopify:\/\/collections\/parfums-de-marly",
@@ -422,6 +427,7 @@
         },
         "column_8yXrx7": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_pure_distance.png",
             "block_link": "shopify:\/\/collections\/puredistance",
