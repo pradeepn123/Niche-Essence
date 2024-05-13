@@ -19,6 +19,11 @@
         background-color: #00000007;
         z-index: 6;
     }
+product-card:hover{
+    .pdp__quick-view{
+        transform: translateY(-15px) !important;
+    }
+}
 .pdp__quick-view {
     width: 65% !important;
     right: 5% !important;
@@ -26,14 +31,9 @@
     color: #473715 !important;
     column-gap: 5px;
     background: #B18D40 !important;
+   
     @media(--xxs){
         width: 55% !important;
-    }
-    @media(--sm){
-        width: 75% !important;
-    }
-    @media(--md-large){
-        width: 45% !important;  
     }
     @media(--lg){
         width: 37% !important; 

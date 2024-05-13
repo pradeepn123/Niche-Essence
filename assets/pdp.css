@@ -115,6 +115,11 @@
   z-index: 6;
 }
 
+product-card:hover .pdp__quick-view {
+  -webkit-transform: translateY(-15px) !important;
+          transform: translateY(-15px) !important;
+}
+
 .pdp__quick-view {
   width: 65% !important;
   right: 5% !important;
@@ -129,16 +134,6 @@
 @media (min-width: 375px) {
   .pdp__quick-view {
     width: 55% !important;
-  }
-}
-@media (min-width: 768px) {
-  .pdp__quick-view {
-    width: 75% !important;
-  }
-}
-@media (min-width: 1200px) {
-  .pdp__quick-view {
-    width: 45% !important;
   }
 }
 @media (min-width: 1440px) {
