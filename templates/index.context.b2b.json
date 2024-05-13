@@ -4,6 +4,13 @@
     "b2b": true
   },
   "sections": {
+    "featured_collection_jhQ3DT": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "collection_list_AM3wEk": {
       "disabled": false,
       "settings": {
@@ -60,11 +67,40 @@
       "blocks": {
       }
     },
-    "featured_collection_jhQ3DT": {
-      "disabled": true,
+    "multicolumn_LLkJg7": {
       "settings": {
       },
       "blocks": {
+        "column_RAdgPa": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_LktnMJ": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_Hnr9kp": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_eG6enR": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_3zwfXF": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_8yXrx7": {
+          "disabled": false,
+          "settings": {
+          }
+        }
       }
     }
   }
