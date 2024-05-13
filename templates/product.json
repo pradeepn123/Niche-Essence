@@ -129,7 +129,7 @@
             "image": "{{ block.repeater.image.value }}",
             "text": "{{ block.repeater.title.value }}",
             "heading_size": "h3",
-            "rich_text": "{{ block.repeater.paragraph | metafield_tag }}",
+            "rich_text": "<p>{{ block.repeater.paragraph | metafield_tag }}<\/p>",
             "description_size": "medium",
             "height": "adapt",
             "desktop_image_width": "medium",
@@ -231,6 +231,7 @@
     },
     "spacer_wAJA4w": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 35,
         "spacer_desktop": 60,
@@ -260,6 +261,7 @@
     },
     "spacer_CEAMa8": {
       "type": "spacer",
+      "disabled": true,
       "settings": {
         "spacer_mobile": 35,
         "spacer_desktop": 60,
