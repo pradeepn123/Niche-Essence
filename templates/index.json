@@ -461,7 +461,7 @@
         "column_AENpzD"
       ],
       "custom_css": [
-        ".multicolumn__image {width: 256px !important; margin-bottom: 0px; background-color: #f9f9f9;}",
+        ".multicolumn__image {width: 256px !important; background-color: #f9f9f9;}",
         ".multicolumn__column:last-child {margin-top: auto; margin-bottom: auto;}"
       ],
       "settings": {
