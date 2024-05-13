@@ -293,8 +293,8 @@
         "column_eNUy4J": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand_creed.png",
-            "block_link": "shopify:\/\/collections\/creed",
+            "image": "shopify:\/\/shop_images\/brand_byredo.png",
+            "block_link": "shopify:\/\/collections\/byredo",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -303,11 +303,37 @@
             "link": ""
           }
         },
-        "column_Hnr9kp": {
+        "column_8qQM3U": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand_kajal.png",
-            "block_link": "shopify:\/\/collections\/kajal",
+            "image": "shopify:\/\/shop_images\/brand_amouage.png",
+            "block_link": "shopify:\/\/collections\/amouage-fragrances",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Rrty8A": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_roja.png",
+            "block_link": "shopify:\/\/collections\/roja",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hkhQja": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_xerfoff.png",
+            "block_link": "shopify:\/\/collections\/xerjoff-fragrances",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -329,11 +355,37 @@
             "link": ""
           }
         },
+        "column_RAdgPa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_creed.png",
+            "block_link": "shopify:\/\/collections\/creed",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_LktnMJ": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_initio.png",
             "block_link": "shopify:\/\/collections\/initio",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Hnr9kp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_kajal.png",
+            "block_link": "shopify:\/\/collections\/kajal",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -355,6 +407,32 @@
             "link": ""
           }
         },
+        "column_3zwfXF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_parfums_de_marly.png",
+            "block_link": "shopify:\/\/collections\/parfums-de-marly",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8yXrx7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_pure_distance.png",
+            "block_link": "shopify:\/\/collections\/puredistance",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_AENpzD": {
           "type": "column",
           "settings": {
@@ -364,16 +442,22 @@
             "title": "And More",
             "text": "",
             "link_label": "View All Brands",
-            "link": "\/collections\/all"
+            "link": "shopify:\/\/pages\/brands"
           }
         }
       },
       "block_order": [
         "column_eNUy4J",
-        "column_Hnr9kp",
+        "column_8qQM3U",
+        "column_Rrty8A",
+        "column_hkhQja",
         "column_E7TABc",
+        "column_RAdgPa",
         "column_LktnMJ",
+        "column_Hnr9kp",
         "column_eG6enR",
+        "column_3zwfXF",
+        "column_8yXrx7",
         "column_AENpzD"
       ],
       "custom_css": [
