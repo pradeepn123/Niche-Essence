@@ -105,3 +105,25 @@
   text-transform: uppercase !important;
   font-weight: 700 !important;
 }
+
+.thb-localization-forms .thb-currency-code.resize-select {
+  padding-right: 20px;
+  cursor: pointer;
+}
+.thb-localization-forms.inside-header .select-arrow {
+  right: 15px;
+  cursor: pointer;
+}
+
+.mobile-menu-drawer .thb-mobile-menu-footer .shopify-localization-form .select-arrow {
+  right: 15px !important;
+}
+
+.btn.klaviyo-bis-trigger {
+  display: block;
+  background: rgba(234, 203, 137, 0.4);
+  border: 1px solid #AA822C;
+  padding: 17px 0;
+  font-size: 14px;
+  font-weight: 700;
+}
