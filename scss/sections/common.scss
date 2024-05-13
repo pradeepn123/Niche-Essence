@@ -108,7 +108,10 @@
     display: block;
     background: colors.$brown-300; 
     border: 1px solid colors.$brown-600;
-    padding: 17px 0;
+    padding: 12px 0; 
     font-size: typography.$body-title-size;
     font-weight: typography.$heading-weight;
+    &:hover{
+        opacity: 0.8;
+    }
 }

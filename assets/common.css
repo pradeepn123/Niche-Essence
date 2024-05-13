@@ -123,7 +123,10 @@
   display: block;
   background: rgba(234, 203, 137, 0.4);
   border: 1px solid #AA822C;
-  padding: 17px 0;
+  padding: 12px 0;
   font-size: 14px;
   font-weight: 700;
+}
+.btn.klaviyo-bis-trigger:hover {
+  opacity: 0.8;
 }
