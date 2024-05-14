@@ -4,6 +4,13 @@
     "b2b": true
   },
   "sections": {
+    "16623877721f33fb14": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "background_video_DWcP8t": {
       "disabled": true,
       "settings": {
@@ -25,13 +32,6 @@
       "blocks": {
       }
     },
-    "16623877721f33fb14": {
-      "disabled": true,
-      "settings": {
-      },
-      "blocks": {
-      }
-    },
     "spacer_wAJA4w": {
       "disabled": true,
       "settings": {
@@ -44,6 +44,17 @@
       "settings": {
       },
       "blocks": {
+      }
+    },
+    "main-product": {
+      "settings": {
+      },
+      "blocks": {
+        "complementary_AdRyyH": {
+          "disabled": true,
+          "settings": {
+          }
+        }
       }
     }
   }
