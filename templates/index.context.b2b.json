@@ -4,5 +4,97 @@
     "b2b": true
   },
   "sections": {
+    "featured_collection_jhQ3DT": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "collection_list_AM3wEk": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "featured_collection_EyExmr": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "multicolumn_LLkJg7": {
+      "settings": {
+      },
+      "blocks": {
+        "column_RAdgPa": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_LktnMJ": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_Hnr9kp": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_eG6enR": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_3zwfXF": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_8yXrx7": {
+          "disabled": false,
+          "settings": {
+          }
+        }
+      }
+    },
+    "166366584621bc44f2": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "spacer_3EDfTQ": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "image_with_text_m7A9pA": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "16624658277b7c3abc": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "16626364694d37e9d5": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    }
   }
 }
