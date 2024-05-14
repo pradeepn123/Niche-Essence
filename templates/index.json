@@ -270,6 +270,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_creed.png",
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -282,6 +283,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_kajal.png",
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -294,6 +296,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_thameen.png",
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -306,6 +309,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_initio.png",
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -318,6 +322,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_nasomatto.png",
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -329,6 +334,7 @@
         "column_AENpzD": {
           "type": "column",
           "settings": {
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "And More",
@@ -513,6 +519,7 @@
       "block_order": [
         "4551cbda-76ff-4a07-a279-a29df7956af6"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
         "text_width": "medium",
@@ -523,6 +530,25 @@
         "color_links": "#151515",
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
+      }
+    },
+    "1715673705bd7ad536": {
+      "type": "apps",
+      "blocks": {
+        "okendo_reviews_carousel_iN3wKn": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "okendo_reviews_carousel_iN3wKn"
+      ],
+      "settings": {
       }
     },
     "16615358507b6ff1a8": {
@@ -567,6 +593,7 @@
         "quote_iGLf6b",
         "quote_LDgiPY"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "text_size": "small",
@@ -658,6 +685,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/wholesale_partner_program.webp",
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -669,6 +697,7 @@
         "column_QQYr89": {
           "type": "column",
           "settings": {
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -681,6 +710,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/affiliate_partner_program.webp",
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -692,6 +722,7 @@
         "column_bYRmkr": {
           "type": "column",
           "settings": {
+            "block_link": "",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -743,6 +774,7 @@
     "background_video_qTHHGF",
     "spacer_4r6b3c",
     "1662459178b0886a69",
+    "1715673705bd7ad536",
     "16615358507b6ff1a8",
     "1662368401fce27368",
     "image_with_text_mxTWAb",
