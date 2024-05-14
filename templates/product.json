@@ -225,7 +225,7 @@
         "text_WyybEC": {
           "type": "text",
           "settings": {
-            "text": "<h2><strong>Customer Reviews<\/strong><\/h2>",
+            "text": "<h3><strong>Customer Reviews<\/strong><\/h3>",
             "custom_liquid": "",
             "size": "text-size-regular"
           }
