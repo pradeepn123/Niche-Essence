@@ -633,7 +633,6 @@
       "block_order": [
         "4551cbda-76ff-4a07-a279-a29df7956af6"
       ],
-      "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
         "text_width": "medium",
@@ -643,7 +642,7 @@
         "color_text": "#151515",
         "color_links": "#151515",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "171558429427f382a6": {
@@ -652,7 +651,7 @@
         "okendo_reviews_carousel_4Az9eN": {
           "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
-            "show_heading": true,
+            "show_heading": false,
             "heading": "Customers Love Us",
             "badge_link": "",
             "product": ""
