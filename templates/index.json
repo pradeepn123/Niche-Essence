@@ -519,7 +519,6 @@
       "block_order": [
         "4551cbda-76ff-4a07-a279-a29df7956af6"
       ],
-      "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
         "text_width": "medium",
@@ -529,7 +528,7 @@
         "color_text": "#151515",
         "color_links": "#151515",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": false
+        "disable_bottom_spacing": true
       }
     },
     "1715673705bd7ad536": {
