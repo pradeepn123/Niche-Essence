@@ -22,6 +22,12 @@
             "show_products_rating": true
           }
         },
+        "okendo_star_rating_mRwkit": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/star-rating\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -76,6 +82,7 @@
       "block_order": [
         "e431a79e-9c7b-4a53-a79a-0cb918617ecf",
         "title",
+        "okendo_star_rating_mRwkit",
         "variant_picker",
         "buy_buttons",
         "complementary_AdRyyH",
