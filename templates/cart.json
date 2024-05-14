@@ -2,6 +2,17 @@
   "sections": {
     "main-cart": {
       "type": "main-cart",
+      "blocks": {
+        "shipping_estimator_Y8Qm8D": {
+          "type": "shipping_estimator",
+          "settings": {
+            "default_country": ""
+          }
+        }
+      },
+      "block_order": [
+        "shipping_estimator_Y8Qm8D"
+      ],
       "settings": {
         "cart_notes_enable": true
       }

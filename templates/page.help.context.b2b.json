@@ -1,8 +1,0 @@
-{
-  "parent": "page.help.json",
-  "context": {
-    "b2b": true
-  },
-  "sections": {
-  }
-}
