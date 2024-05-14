@@ -61,10 +61,35 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "collapsible_content_9tRcPG": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_MU6wwB": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Complementary Sample Request",
+            "open": false,
+            "content": "<p>We offer 3 complementary samples with every product order (not samples-only orders). Sample requests can be typed into a box in checkout process. Free sample are going to be from manufacturers samples. if we ran out of manufacturers sample we will make custom samples and we label them properly for you. If we don't have the requested samples in stock at the time of order or you do not request samples we will put random samples that we think you might like based on your order.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_MU6wwB"
+      ],
+      "settings": {
+        "heading": "Complementary Samples",
+        "description": "",
+        "uppercase_heading": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
     "main",
-    "collapsible_content_f3qkyG"
+    "collapsible_content_f3qkyG",
+    "collapsible_content_9tRcPG"
   ]
 }
