@@ -1092,8 +1092,6 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".product-featured-image {background-color: black;}",
-      ".product-primary-image {opacity: 0.97;}",
       ".product-card-title {color: black;}",
       ".price {font-weight: 400;}"
     ]
