@@ -122,6 +122,30 @@
         "disable_bottom_spacing": false
       }
     },
+    "collection_list_AM3wEk": {
+      "type": "collection-list",
+      "disabled": true,
+      "settings": {
+        "heading": "Shop by Category",
+        "heading_left": true,
+        "description": "",
+        "full_width": true,
+        "collection_list": [
+
+        ],
+        "image_ratio": "portrait",
+        "layout": "grid",
+        "style": "style1",
+        "columns_desktop": 4,
+        "columns_mobile": "1",
+        "show_progress_bar": true,
+        "mobile_swipe": true,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
+    },
     "166143150135dd97e2": {
       "type": "gallery",
       "blocks": {
@@ -133,7 +157,7 @@
             "title": "Fragrances",
             "text": "Explore a world of captivating fragrances tailored to your style.",
             "link_label": "Shop Fragrances",
-            "link": "",
+            "link": "shopify:\/\/collections\/fragrances",
             "use_text_button": false,
             "block_link": "",
             "product_list": [
@@ -149,7 +173,7 @@
             "title": "Bath & Body",
             "text": "Experience luxury and vitality with our bath and body collection.",
             "link_label": "Shop bath & body",
-            "link": "",
+            "link": "shopify:\/\/collections\/all-bath-body",
             "use_text_button": false,
             "block_link": "",
             "product_list": [
@@ -165,7 +189,7 @@
             "title": "Home Collection",
             "text": "Enhance your home environment with our chic and cozy selection.",
             "link_label": "shop home collection",
-            "link": "",
+            "link": "shopify:\/\/collections\/candles",
             "use_text_button": false,
             "block_link": "",
             "product_list": [
@@ -269,8 +293,8 @@
         "column_eNUy4J": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand_creed.png",
-            "block_link": "",
+            "image": "shopify:\/\/shop_images\/brand_byredo.png",
+            "block_link": "shopify:\/\/collections\/byredo",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -279,11 +303,37 @@
             "link": ""
           }
         },
-        "column_Hnr9kp": {
+        "column_8qQM3U": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand_kajal.png",
-            "block_link": "",
+            "image": "shopify:\/\/shop_images\/brand_amouage.png",
+            "block_link": "shopify:\/\/collections\/amouage-fragrances",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Rrty8A": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_roja.png",
+            "block_link": "shopify:\/\/collections\/roja",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hkhQja": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_xerfoff.png",
+            "block_link": "shopify:\/\/collections\/xerjoff-fragrances",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -296,7 +346,21 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_thameen.png",
-            "block_link": "",
+            "block_link": "shopify:\/\/collections\/thameen",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RAdgPa": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_creed.png",
+            "block_link": "shopify:\/\/collections\/creed",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -307,9 +371,24 @@
         },
         "column_LktnMJ": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_initio.png",
-            "block_link": "",
+            "block_link": "shopify:\/\/collections\/initio",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Hnr9kp": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_kajal.png",
+            "block_link": "shopify:\/\/collections\/kajal",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -320,9 +399,38 @@
         },
         "column_eG6enR": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_nasomatto.png",
-            "block_link": "",
+            "block_link": "shopify:\/\/collections\/nasomatto",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3zwfXF": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_parfums_de_marly.png",
+            "block_link": "shopify:\/\/collections\/parfums-de-marly",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8yXrx7": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_pure_distance.png",
+            "block_link": "shopify:\/\/collections\/puredistance",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -334,26 +442,32 @@
         "column_AENpzD": {
           "type": "column",
           "settings": {
-            "block_link": "",
+            "block_link": "\/collections\/all",
             "image_full_width": false,
             "retina": true,
             "title": "And More",
             "text": "",
             "link_label": "View All Brands",
-            "link": ""
+            "link": "shopify:\/\/pages\/brands"
           }
         }
       },
       "block_order": [
         "column_eNUy4J",
-        "column_Hnr9kp",
+        "column_8qQM3U",
+        "column_Rrty8A",
+        "column_hkhQja",
         "column_E7TABc",
+        "column_RAdgPa",
         "column_LktnMJ",
+        "column_Hnr9kp",
         "column_eG6enR",
+        "column_3zwfXF",
+        "column_8yXrx7",
         "column_AENpzD"
       ],
       "custom_css": [
-        ".multicolumn__image {width: 256px !important; margin-bottom: 0px; background-color: #f9f9f9;}",
+        ".multicolumn__image {width: 256px !important; background-color: #f9f9f9;}",
         ".multicolumn__column:last-child {margin-top: auto; margin-bottom: auto;}"
       ],
       "settings": {
@@ -519,6 +633,7 @@
       "block_order": [
         "4551cbda-76ff-4a07-a279-a29df7956af6"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full-width-row-full",
         "text_width": "medium",
@@ -528,24 +643,24 @@
         "color_text": "#151515",
         "color_links": "#151515",
         "disable_top_spacing": false,
-        "disable_bottom_spacing": true
+        "disable_bottom_spacing": false
       }
     },
-    "1715673705bd7ad536": {
+    "171558429427f382a6": {
       "type": "apps",
       "blocks": {
-        "okendo_reviews_carousel_iN3wKn": {
+        "okendo_reviews_carousel_4Az9eN": {
           "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
-            "show_heading": false,
-            "heading": "",
+            "show_heading": true,
+            "heading": "Customers Love Us",
             "badge_link": "",
             "product": ""
           }
         }
       },
       "block_order": [
-        "okendo_reviews_carousel_iN3wKn"
+        "okendo_reviews_carousel_4Az9eN"
       ],
       "settings": {
       }
@@ -700,9 +815,9 @@
             "image_full_width": false,
             "retina": true,
             "title": "",
-            "text": "<h5>For <strong>Retailers<\/strong><\/h5><p>Partner with us to unlock growth opportunities & drive success. Access premium products at competitive prices.<\/p>",
-            "link_label": "JOIN WHOLESALE PARTNER",
-            "link": "shopify:\/\/pages\/wholesale"
+            "text": "<h5>For <strong>Retailers<\/strong><\/h5><p>Partner with us to unlock growth opportunities & drive success. Access premium products at competitive prices.<\/p><p><a href=\"https:\/\/shopify.com\/11251484\/account\" target=\"_blank\" title=\"https:\/\/shopify.com\/11251484\/account\">LOGIN<\/a> or <a href=\"\/pages\/wholesale-partner-signup\" target=\"_blank\" title=\"Wholesale Partner Signup\">SIGNUP<\/a><\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
         "column_nn7MUt": {
@@ -725,8 +840,8 @@
             "image_full_width": false,
             "retina": true,
             "title": "",
-            "text": "<h5>For <strong>Influencers<\/strong><\/h5><p>Join our referral program and start earning today. Receive a 5% commission for every dollar you refer to our store.<\/p>",
-            "link_label": "JOIN AFFILIATE PARTNER",
+            "text": "<h5>For <strong>Influencers<\/strong><\/h5><p>Join our referral program and start earning today. Receive a 5% commission for every dollar you refer to our store.<\/p><p><a href=\"https:\/\/kickbooster.me\/login?after_login_url=http%3A%2F%2Fniche-essence.kickbooster.me%2Fboost\" target=\"_blank\" title=\"https:\/\/kickbooster.me\/login?after_login_url=http%3A%2F%2Fniche-essence.kickbooster.me%2Fboost\">LOGIN <\/a>or <a href=\"https:\/\/niche-essence.kickbooster.me\/boost\" target=\"_blank\" title=\"https:\/\/niche-essence.kickbooster.me\/boost\">SIGNUP<\/a><\/p>",
+            "link_label": "",
             "link": ""
           }
         }
@@ -761,6 +876,7 @@
   "order": [
     "16479477632637c9a7",
     "featured_collection_jhQ3DT",
+    "collection_list_AM3wEk",
     "166143150135dd97e2",
     "featured_collection_EyExmr",
     "16614195534fb74bc3",
@@ -773,7 +889,7 @@
     "background_video_qTHHGF",
     "spacer_4r6b3c",
     "1662459178b0886a69",
-    "1715673705bd7ad536",
+    "171558429427f382a6",
     "16615358507b6ff1a8",
     "1662368401fce27368",
     "image_with_text_mxTWAb",
