@@ -91,7 +91,8 @@
         "4fd23485-293f-46a0-8a4c-34d0e25ea41b"
       ],
       "custom_css": [
-        ".thb-product-detail .product-title {font-family: Americana, serif; font-weight: 600;}"
+        ".thb-product-detail .product-title {font-family: Americana, serif; font-weight: 600;}",
+        ".product-title-container {margin-bottom:0px;}"
       ],
       "settings": {
         "full_width": false,
