@@ -1,8 +1,0 @@
-{
-  "parent": "search.json",
-  "context": {
-    "b2b": true
-  },
-  "sections": {
-  }
-}

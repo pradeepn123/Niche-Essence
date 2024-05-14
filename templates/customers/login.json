@@ -4,9 +4,37 @@
       "type": "main-login",
       "settings": {
       }
+    },
+    "rich_text_TiT6H9": {
+      "type": "rich-text",
+      "blocks": {
+        "text_GFQwRe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>",
+            "custom_liquid": "",
+            "size": "text-size-small"
+          }
+        }
+      },
+      "block_order": [
+        "text_GFQwRe"
+      ],
+      "settings": {
+        "section_width": "grid",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "color_bg": "transparent",
+        "color_text": "#151515",
+        "color_links": "#151515",
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
-    "main-login"
+    "main-login",
+    "rich_text_TiT6H9"
   ]
 }
