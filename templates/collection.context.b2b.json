@@ -6,7 +6,9 @@
   "sections": {
     "product-grid": {
       "settings": {
-        "facets_desktop": "sidebar"
+        "facets_desktop": "sidebar",
+        "pagination_type": "paginated",
+        "products_per_page": 32
       },
       "blocks": {
       }
