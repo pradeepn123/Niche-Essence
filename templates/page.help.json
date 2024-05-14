@@ -7,9 +7,64 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "collapsible_content_f3qkyG": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_tab_k3wB3a": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "International Shipping",
+            "open": false,
+            "content": "<p>We ship within North America (Continental United States and Canada)<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_p6M6Ky": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Complementary Shipping",
+            "open": false,
+            "content": "<p>We offer complementary shipping on orders above $75 dollars. All orders that are free shipped come with tracking.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_UdG6GC": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Online Order Fulfilment",
+            "open": false,
+            "content": "<p>If the order is received before 12:00 pm ET, it is usually packed and prepared to be shipped at the same day the order is placed. The rest of the orders are fulfilled by the next business day.  <\/p><p><strong>Local Delivery <\/strong><\/p><p>You can pick up your order after reciving a \" Ready for Pickup\" notification from our flagship boutique in Bayview Village Shopping Center. <br\/>A local pick up confirmation form has to be completed by the customer. <br\/>For picking up your order you must have a valid photo ID. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_GAFGJk": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping Rates",
+            "open": false,
+            "content": "<p>We ship all the orders above $75 dollars for free by FEDEX. <\/p><p>-   Orders under $75 Continental United States: $20 flat rate (Expedited shipping - With Tracking)<br\/>-   Orders under $75 Canada: $15 flat rate (Expedited shipping - With Tracking)<br\/>-   FEDEX Expedited (2 business days) Canada: $45 Flat Rate (UPS Expedited With Tracking)<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_tab_k3wB3a",
+        "collapsible_tab_p6M6Ky",
+        "collapsible_tab_UdG6GC",
+        "collapsible_tab_GAFGJk"
+      ],
+      "settings": {
+        "heading": "Order Fulfilment & Shipping",
+        "description": "",
+        "uppercase_heading": false,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collapsible_content_f3qkyG"
   ]
 }
