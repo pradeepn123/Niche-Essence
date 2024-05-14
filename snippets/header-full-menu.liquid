@@ -57,7 +57,7 @@
 					-%}
 					<div class="sub-menu mega-menu-container" tabindex="-1">
 						{%- if has_sub_menu -%}
-				<div class="mega-menu_link_with_imagies ">
+					{% if link.title == "Brands" %}	<div class="mega-menu_link_with_imagies "> {% endif %}
 				    <ul class="mega-menu-columns {{ link.title }} {% if link.title == "Brands" %} menu-item-new-list{% endif %}" tabindex="-1">
 			        {%- for l in link.links -%}
 				        <li class="{% if l.active %} active{% endif %}" role="none">
@@ -74,7 +74,7 @@
 				        </li>
 							{%- endfor -%}
 				    </ul>
-				</div>
+					{% if link.title == "Brands" %}	</div> {% endif %}
 						{%- endif -%}
 						{% if has_mega_menu %}
 							{%- if mega_menu_block.settings.promo_1_image -%}

@@ -5,6 +5,7 @@
 @import 'breakpoints'; 
 
 .sub-menu.mega-menu-container {
+    justify-content: space-between;
     .mega-menu_link_with_imagies {
         ul {
             li {
@@ -61,7 +62,10 @@
     li{
         a{
             text-transform: capitalize;
-            font-weight: typography.$medium-weight;
+            font-size: calc(var(--font-navigation-scale, 1) * 15px);
+            font-weight: typography.$regular-weight; 
+            letter-spacing: unset;
+            margin-bottom: unset; 
         }
     }
 }
@@ -122,3 +126,16 @@
     }
 }
 
+.mega-menu-promotion_wrapper{
+    display: flex;
+    align-items: flex-end;
+}
+
+.mega-menu-columns.Brands.menu-item-new-list li{
+    &:nth-child(2){
+        margin-top: 10px; 
+    }
+    &:last-child{
+        margin-top: 5px; 
+    }
+}
