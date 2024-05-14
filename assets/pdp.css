@@ -125,7 +125,7 @@ product-card:hover .pdp__quick-view {
 }
 @media (min-width: 375px) {
   .pdp__quick-view {
-    width: 55% !important;
+    width: 60% !important;
   }
 }
 @media (min-width: 1440px) {
@@ -138,4 +138,50 @@ product-card:hover .pdp__quick-view {
   .pdp__image-inner {
     width: 50% !important;
   }
+}
+
+.product-card-badge {
+  font-size: 10px;
+  padding: 0.2rem 0.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .product-card-badge {
+    font-size: 1.3rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .product-card__badges {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-column-gap: 0.8rem;
+       -moz-column-gap: 0.8rem;
+            column-gap: 0.8rem;
+  }
+}
+.product-custom-badges {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 5px;
+  padding: 15px;
+}
+.product-custom-badges span {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.product-card .product-card-badge--custom-1, .product-card .product-card-badge--custom-2, .product-card .product-card-badge--custom-3, .product-card .product-card-badge--custom-4,
+.product-card .badge.out-of-stock {
+  position: static !important;
+  position: initial !important;
 }

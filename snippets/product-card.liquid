@@ -1,3 +1,22 @@
+{% style %}
+	.product-card-badge--custom-1{
+		background-color : {{ settings.product_card_custom_badge_1_bg }};
+		color : {{ settings.product_card_custom_badge_1_color }};
+	}
+	.product-card-badge--custom-2{
+		background-color : {{ settings.product_card_custom_badge_2_bg }};
+		color : {{ settings.product_card_custom_badge_2_color }};
+	}
+	.product-card-badge--custom-3{
+		background-color : {{ settings.product_card_custom_badge_3_bg }};
+		color : {{ settings.product_card_custom_badge_3_color }};
+	}
+	.product-card-badge--custom-4{
+		background-color : {{ settings.product_card_custom_badge_4_bg }};
+		color : {{ settings.product_card_custom_badge_4_color }};
+}
+{% endstyle %}
+
 {{- 'pdp.css' | asset_url | stylesheet_tag -}}
 {%- if product_card_product and product_card_product != empty -%}
 {%- liquid

@@ -702,6 +702,117 @@
         "id": "color_badge_preorder",
         "label": "Pre-Order",
         "default": "#666666"
+      },
+      {
+        "type": "header",
+        "content": "custom badge 1"
+      },
+      {
+        "type": "paragraph",
+        "content": "Create your own badges by linking them to product tags"
+      },
+      {
+        "type": "text",
+        "id": "product_card_custom_badge_1_text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "product_card_custom_badge_1_tag",
+        "label": "Tag"
+      },
+      {
+        "type": "color",
+        "id": "product_card_custom_badge_1_bg",
+        "default": "#3C863B",
+        "label": "Background color"
+      },
+      {
+        "type": "color",
+        "id": "product_card_custom_badge_1_color",
+        "default": "#ffffff",
+        "label": "Text color"
+      },
+      {
+        "type": "header",
+        "content": "custom badge 2"
+      },
+    
+      {
+        "type": "text",
+        "id": "product_card_custom_badge_2_text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "product_card_custom_badge_2_tag",
+        "label": "Tag"
+      },
+      {
+        "type": "color",
+        "id": "product_card_custom_badge_2_bg",
+        "default": "#3C863B",
+        "label": "Background color"
+      },
+      {
+        "type": "color",
+        "id": "product_card_custom_badge_2_color",
+        "default": "#ffffff",
+        "label": "Text color"
+      },
+      {
+        "type": "header",
+        "content": "custom badge 3"
+      },
+     
+      {
+        "type": "text",
+        "id": "product_card_custom_badge_3_text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "product_card_custom_badge_3_tag",
+        "label": "Tag"
+      },
+      {
+        "type": "color",
+        "id": "product_card_custom_badge_3_bg",
+        "default": "#3C863B",
+        "label": "Background color"
+      },
+      {
+        "type": "color",
+        "id": "product_card_custom_badge_3_color",
+        "default": "#ffffff",
+        "label": "Text color"
+      },
+      {
+        "type": "header",
+        "content": "custom badge 4"
+      },
+    
+      {
+        "type": "text",
+        "id": "product_card_custom_badge_4_text",
+        "label": "Text"
+      },
+      {
+        "type": "text",
+        "id": "product_card_custom_badge_4_tag",
+        "label": "Tag"
+      },
+      {
+        "type": "color",
+        "id": "product_card_custom_badge_4_bg",
+        "default": "#3C863B",
+        "label": "Background color"
+      },
+      {
+        "type": "color",
+        "id": "product_card_custom_badge_4_color",
+        "default": "#ffffff",
+        "label": "Text color"
       }
     ]
   },

@@ -38,7 +38,7 @@ product-card:hover{
     }
    
     @media(--xxs){
-        width: 55% !important;
+        width: 60% !important;
     }
     @media(--lg){
         width: 37% !important; 
@@ -50,4 +50,40 @@ product-card:hover{
     @media(--sm){
         width: 50% !important; 
     }
+}
+
+.product-card-badge{
+    font-size: 10px;
+    padding:0.2rem 0.6rem;
+  
+}
+    @media screen  and (min-width:1024px){ 
+        .product-card-badge{
+            font-size: 1.3rem;
+            padding:0.4rem 0.8rem;
+        }
+    }
+   
+
+    @media screen  and (min-width:1024px){
+        .product-card__badges{
+            flex-flow: row;
+            column-gap: 0.8rem;
+    }
+}
+
+.product-custom-badges{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding: 15px;
+    span{
+        width: fit-content;      
+    }
+}
+
+.product-card .product-card-badge--custom-1, .product-card .product-card-badge--custom-2, .product-card .product-card-badge--custom-3, .product-card .product-card-badge--custom-4,
+.product-card .badge.out-of-stock {
+    position: unset !important;
 }
