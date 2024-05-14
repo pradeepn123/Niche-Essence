@@ -92,7 +92,8 @@
       ],
       "custom_css": [
         ".thb-product-detail .product-title {font-family: Americana, serif; font-weight: 600;}",
-        ".product-title-container {margin-bottom: 0px;}"
+        ".product-title-container {margin-bottom: 0px;}",
+        ".product-grid-container {grid-template-columns: 1fr 1fr;}"
       ],
       "settings": {
         "full_width": false,
