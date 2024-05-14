@@ -105,6 +105,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/signup.jpg",
+            "block_link": "",
             "image_full_width": true,
             "retina": true,
             "title": "1. Sign Up",
@@ -117,6 +118,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/promote.jpg",
+            "block_link": "",
             "image_full_width": true,
             "retina": true,
             "title": "2. Spread the Word",
@@ -129,6 +131,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/earn.jpg",
+            "block_link": "",
             "image_full_width": true,
             "retina": true,
             "title": "3. Earn Commission",
@@ -170,6 +173,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/commission.jpg",
+            "block_link": "",
             "image_full_width": true,
             "retina": true,
             "title": "Earn Commission",
@@ -182,6 +186,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/premium_products.jpg",
+            "block_link": "",
             "image_full_width": true,
             "retina": true,
             "title": "Premium Products",
@@ -194,6 +199,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/dashboard.jpg",
+            "block_link": "",
             "image_full_width": true,
             "retina": true,
             "title": "Affiliate Dashboard",
@@ -251,7 +257,7 @@
         "button_mnE44r": {
           "type": "button",
           "settings": {
-            "link_label": "Join partner program",
+            "link_label": "Join Affiliate program",
             "link": "",
             "button_outline": false
           }
@@ -373,45 +379,45 @@
         "collapsible_tab_QkXrTX": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "How do I apply for the Wholesale Partner Program?",
+            "heading": "What is the Niche Essence Affiliate Program?",
             "open": false,
-            "content": "<p>To apply for our Wholesale Partner Program, simply visit our website and navigate to the 'Wholesale' section. There, you'll find an application form to fill out. Once submitted, our team will review your application and reach out to discuss partnership opportunities.<\/p>",
+            "content": "<p>The Niche Essence Affiliate Program allows you to earn a 5% commission on sales you refer to our store. Simply sign up, share your unique referral link, and start earning!<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_VBjiYE": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What are the benefits of becoming a wholesale partner with Niche Essence?",
+            "heading": "How do I sign up?",
             "open": false,
-            "content": "<p>As a wholesale partner with Niche Essence, you'll enjoy exclusive access to our curated collection of premium products at discounted wholesale prices. Additionally, you'll receive dedicated support from our team, marketing materials, and promotional assistance to help boost your sales and grow your business.<\/p>",
+            "content": "<p>To join, click the \" Join Affiliate Program \" button on our affiliate program page, fill out the required details, and create your account. You'll receive a unique referral link to start sharing.<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_RQAMhw": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Is there a minimum order requirement for wholesale purchases?",
+            "heading": "What are the commission payout options?",
             "open": false,
-            "content": "<p>Yes, we do have a minimum order requirement for wholesale purchases. The specific minimum order amount may vary depending on the products and quantities you're interested in. Please reach out to our wholesale team for more information on minimum order requirements for your desired products.<\/p>",
+            "content": "<p>Commissions are paid out monthly via various methods including direct bank transfer, PayPal, and gift cards. You can select your preferred payout option in your account settings.<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_6mi4jw": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What payment methods do you accept for wholesale orders?",
+            "heading": "Where can I share my referral link?",
             "open": false,
-            "content": "<p>We accept various payment methods for wholesale orders, including credit\/debit cards, bank transfers, and PayPal. Our team will work with you to determine the most convenient payment method for your wholesale transactions.<\/p>",
+            "content": "<p>You can share your link on social media platforms like Facebook and Twitter, on your blog or website, or any other online space where you engage with your audience.<\/p>",
             "page": ""
           }
         },
         "collapsible_tab_YEqqDr": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What is your shipping policy for wholesale orders?",
+            "heading": "How can I track my earnings?",
             "open": false,
-            "content": "<p>We strive to provide efficient and reliable shipping for all wholesale orders. Once your order is placed and payment is confirmed, our team will process and ship your products in a timely manner. Shipping costs and delivery times may vary depending on your location and the size of your order. For more details, please refer to our shipping policy or contact our wholesale support team.<\/p>",
+            "content": "<p>After logging into your affiliate dashboard, you can monitor your referrals and commissions in real-time. The dashboard provides detailed reports on your earnings and activity.<\/p>",
             "page": ""
           }
         }
