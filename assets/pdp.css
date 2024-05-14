@@ -35,7 +35,6 @@
 .button {
   background: #ED1C24;
   color: currentColor;
-  border-radius: 4px;
   padding: 13px 14px;
   line-height: 1;
   font-family: "poppins";
@@ -129,7 +128,7 @@ product-card:hover .pdp__quick-view {
   -webkit-column-gap: 5px;
      -moz-column-gap: 5px;
           column-gap: 5px;
-  background: #B18D40 !important;
+  background: #997528 !important;
 }
 @media (min-width: 375px) {
   .pdp__quick-view {

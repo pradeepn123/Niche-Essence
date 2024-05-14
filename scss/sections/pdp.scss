@@ -22,6 +22,7 @@
 product-card:hover{
     .pdp__quick-view{
         transform: translateY(-15px) !important;
+
     }
 }
 .pdp__quick-view {
@@ -30,7 +31,7 @@ product-card:hover{
     left: unset !important;
     color: #473715 !important;
     column-gap: 5px;
-    background: #B18D40 !important;
+    background: #997528 !important;
    
     @media(--xxs){
         width: 55% !important;
