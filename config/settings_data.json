@@ -43,7 +43,7 @@
     "show_products_swatches": false,
     "show_products_rating": false,
     "sale_badge_type": "save_percentage",
-    "color_badge_sale": "#aa822c",
+    "color_badge_sale": "#ae1b1b",
     "free_shipping": false,
     "currency_code_enabled": true,
     "sections": {
