@@ -2,8 +2,7 @@
 @use 'StyleComponents/typography';
 
 .button {
-    background: colors.$red;
-    color: currentColor;
+    color: colors.$white;
     padding: 13px 14px;
     line-height: 1;
     font-family: 'poppins';
@@ -14,13 +13,9 @@
         padding: 13px 28px;
     }
 
-    @include use-text-style('body-regular');
+    @include use-text-style('body-title');
     font-weight: typography.$semi-weight;
 
-    @media(--md) {
-        @include use-text-style('body-alt');
-        font-weight: typography.$semi-weight;
-    }
 
     svg {
         vertical-align: middle;

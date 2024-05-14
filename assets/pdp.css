@@ -33,8 +33,7 @@
 }
 
 .button {
-  background: #ED1C24;
-  color: currentColor;
+  color: #fff;
   padding: 13px 14px;
   line-height: 1;
   font-family: "poppins";
@@ -42,23 +41,14 @@
           box-shadow: none;
   outline: 0;
   font-family: "poppins";
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 14px;
+  font-weight: 500;
   line-height: 1.2;
   font-weight: 600;
 }
 @media (min-width: 375px) {
   .button {
     padding: 13px 28px;
-  }
-}
-@media (min-width: 1024px) {
-  .button {
-    font-family: "poppins";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
-    font-weight: 600;
   }
 }
 .button svg {
@@ -128,6 +118,9 @@ product-card:hover .pdp__quick-view {
   -webkit-column-gap: 5px;
      -moz-column-gap: 5px;
           column-gap: 5px;
+  background: #B18D40 !important;
+}
+.pdp__quick-view:hover {
   background: #997528 !important;
 }
 @media (min-width: 375px) {

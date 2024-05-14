@@ -1,5 +1,6 @@
 @use 'StyleComponents/mixins';
 @use 'StyleComponents/typography';
+@use 'StyleComponents/colors'; 
 @import 'Token';
 @import 'breakpoints';
 @import 'StyleComponents/layout';
@@ -14,7 +15,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100%; 
         height: 100%;
         background-color: #00000007;
         z-index: 6;
@@ -29,9 +30,12 @@ product-card:hover{
     width: 65% !important;
     right: 5% !important;
     left: unset !important;
-    color: #473715 !important;
-    column-gap: 5px;
-    background: #997528 !important;
+    color: colors.$brown-700 !important;
+    column-gap: 5px;  
+    background: colors.$brown-400 !important; 
+    &:hover{
+        background: colors.$brown-500 !important;
+    }
    
     @media(--xxs){
         width: 55% !important;
