@@ -139,6 +139,8 @@
 }
 .btn.klaviyo-bis-trigger:hover {
   opacity: 0.8;
+}
+
 @media (min-width: 1440px) {
   .footer-mediaicons-spacing {
     margin-bottom: 20px !important;
