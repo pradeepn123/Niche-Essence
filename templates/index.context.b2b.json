@@ -25,42 +25,6 @@
       "blocks": {
       }
     },
-    "multicolumn_LLkJg7": {
-      "settings": {
-      },
-      "blocks": {
-        "column_RAdgPa": {
-          "disabled": false,
-          "settings": {
-          }
-        },
-        "column_LktnMJ": {
-          "disabled": false,
-          "settings": {
-          }
-        },
-        "column_Hnr9kp": {
-          "disabled": false,
-          "settings": {
-          }
-        },
-        "column_eG6enR": {
-          "disabled": false,
-          "settings": {
-          }
-        },
-        "column_3zwfXF": {
-          "disabled": false,
-          "settings": {
-          }
-        },
-        "column_8yXrx7": {
-          "disabled": false,
-          "settings": {
-          }
-        }
-      }
-    },
     "166366584621bc44f2": {
       "disabled": false,
       "settings": {
@@ -94,6 +58,57 @@
       "settings": {
       },
       "blocks": {
+      }
+    },
+    "multicolumn_LLkJg7": {
+      "settings": {
+      },
+      "blocks": {
+        "column_eNUy4J": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "column_3X6rUc": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_tHXkYD": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_GwPPQr": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_eG6enR": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_BjKKjn": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_8yXrx7": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_Vwn9UP": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_Rrty8A": {
+          "disabled": true,
+          "settings": {
+          }
+        }
       }
     }
   }
