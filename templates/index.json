@@ -335,7 +335,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_dusita.png",
-            "block_link": "shopify:\/\/collections\/puredistance",
+            "block_link": "shopify:\/\/collections\/dusita",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -391,7 +391,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_masque.png",
-            "block_link": "shopify:\/\/collections\/puredistance",
+            "block_link": "shopify:\/\/collections\/le-donne-di-masque",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -405,7 +405,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_mdci.png",
-            "block_link": "shopify:\/\/collections\/puredistance",
+            "block_link": "shopify:\/\/collections\/mdci",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -433,7 +433,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_orto_parisi.png",
-            "block_link": "shopify:\/\/collections\/puredistance",
+            "block_link": "shopify:\/\/collections\/orto-parisi",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -528,7 +528,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_thoo.png",
-            "block_link": "shopify:\/\/collections\/puredistance",
+            "block_link": "shopify:\/\/collections\/thoo",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -542,7 +542,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_zoologist.png",
-            "block_link": "shopify:\/\/collections\/puredistance",
+            "block_link": "shopify:\/\/collections\/zoologist",
             "image_full_width": false,
             "retina": true,
             "title": "",
