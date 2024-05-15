@@ -724,6 +724,22 @@
         "border_separator_full": false
       }
     },
+    "background_video_LyDbKh": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "subheading": "",
+        "heading": "",
+        "text": "",
+        "lightbox_button": true,
+        "video": "https:\/\/www.youtube.com\/watch?v=-Cg5msNwrmc&pp=ygUMcm9qYSBwZXJmdW1l",
+        "overlay_opacity": 25,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": true
+      }
+    },
     "spacer_4r6b3c": {
       "type": "spacer",
       "settings": {
@@ -1014,6 +1030,7 @@
     "image_with_text_m7A9pA",
     "16624658277b7c3abc",
     "16626364694d37e9d5",
+    "background_video_LyDbKh",
     "spacer_4r6b3c",
     "1662459178b0886a69",
     "171558429427f382a6",
