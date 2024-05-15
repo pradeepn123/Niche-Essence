@@ -36,6 +36,13 @@
           }
         }
       }
+    },
+    "announcement-bar": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
     }
   }
 }
