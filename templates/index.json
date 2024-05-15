@@ -357,7 +357,6 @@
         },
         "column_RAdgPa": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_creed.png",
             "block_link": "shopify:\/\/collections\/creed",
@@ -371,7 +370,6 @@
         },
         "column_LktnMJ": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_initio.png",
             "block_link": "shopify:\/\/collections\/initio",
@@ -385,7 +383,6 @@
         },
         "column_Hnr9kp": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_kajal.png",
             "block_link": "shopify:\/\/collections\/kajal",
@@ -399,7 +396,6 @@
         },
         "column_eG6enR": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_nasomatto.png",
             "block_link": "shopify:\/\/collections\/nasomatto",
@@ -413,7 +409,6 @@
         },
         "column_3zwfXF": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_parfums_de_marly.png",
             "block_link": "shopify:\/\/collections\/parfums-de-marly",
@@ -427,9 +422,47 @@
         },
         "column_8yXrx7": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_pure_distance.png",
+            "block_link": "shopify:\/\/collections\/puredistance",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3X6rUc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_masque.png",
+            "block_link": "shopify:\/\/collections\/puredistance",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GwPPQr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_mdci.png",
+            "block_link": "shopify:\/\/collections\/puredistance",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BjKKjn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_orto_parisi.png",
             "block_link": "shopify:\/\/collections\/puredistance",
             "image_full_width": false,
             "retina": true,
@@ -464,6 +497,9 @@
         "column_eG6enR",
         "column_3zwfXF",
         "column_8yXrx7",
+        "column_3X6rUc",
+        "column_GwPPQr",
+        "column_BjKKjn",
         "column_AENpzD"
       ],
       "custom_css": [
@@ -581,10 +617,10 @@
         "timer_minute": "00",
         "enable_auto_sale_timer": true,
         "auto_timer_timezone": "-0400",
-        "auto_start_timer_day": "05",
+        "auto_start_timer_day": "00",
         "auto_start_timer_hour": "00",
         "auto_start_timer_minute": "00",
-        "auto_end_timer_day": "06",
+        "auto_end_timer_day": "01",
         "auto_end_timer_hour": "00",
         "auto_end_timer_minute": "00",
         "color_bg": "#ae1b1b",
