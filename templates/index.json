@@ -348,6 +348,20 @@
           "type": "column",
           "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/brand_eight_and_bob.png",
+            "block_link": "shopify:\/\/collections\/eight-and-bob",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bezKUT": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
             "image": "shopify:\/\/shop_images\/brand_initio.png",
             "block_link": "shopify:\/\/collections\/initio",
             "image_full_width": false,
@@ -482,6 +496,20 @@
             "link": ""
           }
         },
+        "column_e4ytwa": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_widian.png",
+            "block_link": "shopify:\/\/collections\/widian",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_hkhQja": {
           "type": "column",
           "settings": {
@@ -542,6 +570,7 @@
         "column_RAdgPa",
         "column_3X6rUc",
         "column_LktnMJ",
+        "column_bezKUT",
         "column_Hnr9kp",
         "column_tHXkYD",
         "column_GwPPQr",
@@ -551,6 +580,7 @@
         "column_8yXrx7",
         "column_Rrty8A",
         "column_E7TABc",
+        "column_e4ytwa",
         "column_hkhQja",
         "column_Vwn9UP",
         "column_nFDUr6",
