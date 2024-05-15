@@ -25,41 +25,6 @@
       "blocks": {
       }
     },
-    "166366584621bc44f2": {
-      "disabled": false,
-      "settings": {
-      },
-      "blocks": {
-      }
-    },
-    "spacer_3EDfTQ": {
-      "disabled": true,
-      "settings": {
-      },
-      "blocks": {
-      }
-    },
-    "image_with_text_m7A9pA": {
-      "disabled": true,
-      "settings": {
-      },
-      "blocks": {
-      }
-    },
-    "16624658277b7c3abc": {
-      "disabled": true,
-      "settings": {
-      },
-      "blocks": {
-      }
-    },
-    "16626364694d37e9d5": {
-      "disabled": true,
-      "settings": {
-      },
-      "blocks": {
-      }
-    },
     "multicolumn_LLkJg7": {
       "settings": {
       },
@@ -120,6 +85,57 @@
           }
         },
         "column_AENpzD": {
+          "disabled": true,
+          "settings": {
+          }
+        }
+      }
+    },
+    "166366584621bc44f2": {
+      "disabled": false,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "spacer_3EDfTQ": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "image_with_text_m7A9pA": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "16624658277b7c3abc": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "16626364694d37e9d5": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
+    "16479477632637c9a7": {
+      "settings": {
+      },
+      "blocks": {
+        "slide_X3NCRR": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "164794776393e76b8e-2": {
           "disabled": true,
           "settings": {
           }
