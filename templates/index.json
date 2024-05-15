@@ -436,6 +436,19 @@
         "column_3X6rUc": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/brand_dusita.png",
+            "block_link": "shopify:\/\/collections\/puredistance",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tHXkYD": {
+          "type": "column",
+          "settings": {
             "image": "shopify:\/\/shop_images\/brand_masque.png",
             "block_link": "shopify:\/\/collections\/puredistance",
             "image_full_width": false,
@@ -498,6 +511,7 @@
         "column_3zwfXF",
         "column_8yXrx7",
         "column_3X6rUc",
+        "column_tHXkYD",
         "column_GwPPQr",
         "column_BjKKjn",
         "column_AENpzD"
