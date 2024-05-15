@@ -74,6 +74,11 @@
           "settings": {
           }
         },
+        "column_LktnMJ": {
+          "disabled": false,
+          "settings": {
+          }
+        },
         "column_tHXkYD": {
           "disabled": false,
           "settings": {
@@ -104,17 +109,12 @@
           "settings": {
           }
         },
-        "column_Vwn9UP": {
-          "disabled": false,
-          "settings": {
-          }
-        },
-        "column_LktnMJ": {
-          "disabled": false,
-          "settings": {
-          }
-        },
         "column_e4ytwa": {
+          "disabled": false,
+          "settings": {
+          }
+        },
+        "column_Vwn9UP": {
           "disabled": false,
           "settings": {
           }
