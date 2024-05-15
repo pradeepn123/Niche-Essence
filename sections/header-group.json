@@ -8,9 +8,9 @@
         "text_cHPXtQ": {
           "type": "text",
           "settings": {
-            "icon": "price_tag",
-            "text": "Exclusive: WowWinsday Sale Every Wednesday",
-            "link": "shopify:\/\/collections\/wowwinsday"
+            "icon": "fire",
+            "text": "Unveil the Latest in Luxury: Explore New Arrivals",
+            "link": "shopify:\/\/collections\/new-products"
           }
         }
       },
