@@ -290,19 +290,6 @@
     "multicolumn_LLkJg7": {
       "type": "multicolumn",
       "blocks": {
-        "column_eNUy4J": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand_byredo.png",
-            "block_link": "shopify:\/\/collections\/byredo",
-            "image_full_width": false,
-            "retina": true,
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_8qQM3U": {
           "type": "column",
           "settings": {
@@ -316,37 +303,11 @@
             "link": ""
           }
         },
-        "column_Rrty8A": {
+        "column_eNUy4J": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand_roja.png",
-            "block_link": "shopify:\/\/collections\/roja",
-            "image_full_width": false,
-            "retina": true,
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_hkhQja": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand_xerfoff.png",
-            "block_link": "shopify:\/\/collections\/xerjoff-fragrances",
-            "image_full_width": false,
-            "retina": true,
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_E7TABc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand_thameen.png",
-            "block_link": "shopify:\/\/collections\/thameen",
+            "image": "shopify:\/\/shop_images\/brand_byredo.png",
+            "block_link": "shopify:\/\/collections\/byredo",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -360,6 +321,19 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_creed.png",
             "block_link": "shopify:\/\/collections\/creed",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3X6rUc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_dusita.png",
+            "block_link": "shopify:\/\/collections\/puredistance",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -394,11 +368,50 @@
             "link": ""
           }
         },
+        "column_tHXkYD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_masque.png",
+            "block_link": "shopify:\/\/collections\/puredistance",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GwPPQr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_mdci.png",
+            "block_link": "shopify:\/\/collections\/puredistance",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_eG6enR": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_nasomatto.png",
             "block_link": "shopify:\/\/collections\/nasomatto",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BjKKjn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_orto_parisi.png",
+            "block_link": "shopify:\/\/collections\/puredistance",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -433,11 +446,11 @@
             "link": ""
           }
         },
-        "column_3X6rUc": {
+        "column_Rrty8A": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand_dusita.png",
-            "block_link": "shopify:\/\/collections\/puredistance",
+            "image": "shopify:\/\/shop_images\/brand_roja.png",
+            "block_link": "shopify:\/\/collections\/roja",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -446,11 +459,11 @@
             "link": ""
           }
         },
-        "column_tHXkYD": {
+        "column_E7TABc": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand_masque.png",
-            "block_link": "shopify:\/\/collections\/puredistance",
+            "image": "shopify:\/\/shop_images\/brand_thameen.png",
+            "block_link": "shopify:\/\/collections\/thameen",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -459,11 +472,11 @@
             "link": ""
           }
         },
-        "column_GwPPQr": {
+        "column_hkhQja": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand_mdci.png",
-            "block_link": "shopify:\/\/collections\/puredistance",
+            "image": "shopify:\/\/shop_images\/brand_xerfoff.png",
+            "block_link": "shopify:\/\/collections\/xerjoff-fragrances",
             "image_full_width": false,
             "retina": true,
             "title": "",
@@ -472,10 +485,10 @@
             "link": ""
           }
         },
-        "column_BjKKjn": {
+        "column_Vwn9UP": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/brand_orto_parisi.png",
+            "image": "shopify:\/\/shop_images\/brand_thoo.png",
             "block_link": "shopify:\/\/collections\/puredistance",
             "image_full_width": false,
             "retina": true,
@@ -489,19 +502,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/brand_zoologist.png",
-            "block_link": "shopify:\/\/collections\/puredistance",
-            "image_full_width": false,
-            "retina": true,
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Vwn9UP": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/brand_thoo.png",
             "block_link": "shopify:\/\/collections\/puredistance",
             "image_full_width": false,
             "retina": true,
@@ -525,23 +525,23 @@
         }
       },
       "block_order": [
-        "column_eNUy4J",
         "column_8qQM3U",
-        "column_Rrty8A",
-        "column_hkhQja",
-        "column_E7TABc",
+        "column_eNUy4J",
         "column_RAdgPa",
+        "column_3X6rUc",
         "column_LktnMJ",
         "column_Hnr9kp",
-        "column_eG6enR",
-        "column_3zwfXF",
-        "column_8yXrx7",
-        "column_3X6rUc",
         "column_tHXkYD",
         "column_GwPPQr",
+        "column_eG6enR",
         "column_BjKKjn",
-        "column_nFDUr6",
+        "column_3zwfXF",
+        "column_8yXrx7",
+        "column_Rrty8A",
+        "column_E7TABc",
+        "column_hkhQja",
         "column_Vwn9UP",
+        "column_nFDUr6",
         "column_AENpzD"
       ],
       "custom_css": [
