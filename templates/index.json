@@ -724,21 +724,6 @@
         "border_separator_full": false
       }
     },
-    "background_video_qTHHGF": {
-      "type": "background-video",
-      "settings": {
-        "desktop_height": "desktop-height-650",
-        "mobile_height": "mobile-height-350",
-        "full_width": true,
-        "subheading": "",
-        "heading": "",
-        "text": "",
-        "lightbox_button": true,
-        "overlay_opacity": 25,
-        "disable_top_spacing": false,
-        "disable_bottom_spacing": true
-      }
-    },
     "spacer_4r6b3c": {
       "type": "spacer",
       "settings": {
@@ -998,6 +983,22 @@
         "disable_top_spacing": false,
         "disable_bottom_spacing": false
       }
+    },
+    "background_video_bCGXpE": {
+      "type": "background-video",
+      "settings": {
+        "desktop_height": "desktop-height-650",
+        "mobile_height": "mobile-height-500",
+        "full_width": true,
+        "subheading": "Add a tagline",
+        "heading": "Background video heading",
+        "text": "Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.",
+        "lightbox_button": true,
+        "video": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "overlay_opacity": 25,
+        "disable_top_spacing": false,
+        "disable_bottom_spacing": false
+      }
     }
   },
   "order": [
@@ -1013,13 +1014,13 @@
     "image_with_text_m7A9pA",
     "16624658277b7c3abc",
     "16626364694d37e9d5",
-    "background_video_qTHHGF",
     "spacer_4r6b3c",
     "1662459178b0886a69",
     "171558429427f382a6",
     "16615358507b6ff1a8",
     "1662368401fce27368",
     "image_with_text_mxTWAb",
-    "multicolumn_fxmFGT"
+    "multicolumn_fxmFGT",
+    "background_video_bCGXpE"
   ]
 }
