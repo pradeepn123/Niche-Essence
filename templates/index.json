@@ -498,6 +498,19 @@
             "link": ""
           }
         },
+        "column_Vwn9UP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/brand_thoo.png",
+            "block_link": "shopify:\/\/collections\/puredistance",
+            "image_full_width": false,
+            "retina": true,
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_AENpzD": {
           "type": "column",
           "settings": {
@@ -528,6 +541,7 @@
         "column_GwPPQr",
         "column_BjKKjn",
         "column_nFDUr6",
+        "column_Vwn9UP",
         "column_AENpzD"
       ],
       "custom_css": [
