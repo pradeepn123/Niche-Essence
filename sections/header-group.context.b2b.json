@@ -10,6 +10,31 @@
         "logo_light": "shopify:\/\/shop_images\/niche_essence_wholesale_white.png"
       },
       "blocks": {
+        "megamenu_reBm4B": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "megamenu_zxQ6Yi": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "megamenu_QfLHFj": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "megamenu_XHVdX7": {
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "megamenu_mPN8Pk": {
+          "disabled": true,
+          "settings": {
+          }
+        }
       }
     }
   }
