@@ -4,10 +4,18 @@
     "b2b": true
   },
   "sections": {
+    "announcement-bar": {
+      "disabled": true,
+      "settings": {
+      },
+      "blocks": {
+      }
+    },
     "header": {
       "settings": {
         "logo": "shopify:\/\/shop_images\/niche_essence_wholesale.png",
-        "logo_light": "shopify:\/\/shop_images\/niche_essence_wholesale_white.png"
+        "logo_light": "shopify:\/\/shop_images\/niche_essence_wholesale_white.png",
+        "menu": "b2b-menu"
       },
       "blocks": {
         "megamenu_reBm4B": {
@@ -35,13 +43,6 @@
           "settings": {
           }
         }
-      }
-    },
-    "announcement-bar": {
-      "disabled": true,
-      "settings": {
-      },
-      "blocks": {
       }
     }
   }
