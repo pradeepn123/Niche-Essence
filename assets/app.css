@@ -2406,7 +2406,9 @@ h6,
       z-index: 2; }
       .thb-full-menu li.menu-item-has-children:hover > .sub-menu {
         visibility: visible;
-        opacity: 1; }
+        opacity: 1; 
+        display: inline-flex;
+      }
       .thb-full-menu li.menu-item-has-children:hover:before {
         content: attr(data-item-title);
         position: absolute;
@@ -2467,7 +2469,9 @@ h6,
     line-height: 1.1;
     min-width: 190px;
     opacity: 0;
-    visibility: hidden; }
+    visibility: hidden;
+    display: none;
+  }
     .thb-full-menu .sub-menu a:not(.text-button):after {
       top: calc(100% - 3px); }
     .thb-full-menu .sub-menu ul {
