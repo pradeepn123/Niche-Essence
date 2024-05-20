@@ -44,12 +44,14 @@
     "show_products_rating": true,
     "sale_badge_type": "save_percentage",
     "color_badge_sale": "#ae1b1b",
-    "product_card_custom_badge_1_text": "Test",
-    "product_card_custom_badge_1_tag": "test_tag",
-    "product_card_custom_badge_2_text": "Test 2",
-    "product_card_custom_badge_2_tag": "test_tag_2",
-    "product_card_custom_badge_3_text": "Test 3",
-    "product_card_custom_badge_3_tag": "test_tag_3",
+    "product_card_custom_badge_1_text": "BACK IN STOCK",
+    "product_card_custom_badge_1_tag": "back_to_stock",
+    "product_card_custom_badge_1_bg": "#363636",
+    "product_card_custom_badge_2_text": "NEW ARRIVAL",
+    "product_card_custom_badge_2_tag": "new_arrivals",
+    "product_card_custom_badge_2_bg": "#aa822c",
+    "product_card_custom_badge_3_text": "",
+    "product_card_custom_badge_3_tag": "",
     "product_card_custom_badge_4_text": "Test 4",
     "product_card_custom_badge_4_tag": "test_tag_4",
     "free_shipping": false,
@@ -1108,7 +1110,7 @@
     "custom_css": [
       ".product-card-title {color: black;}",
       ".price {font-weight: 400;}",
-      ".cart-drawer--recommendations--container{background:white;}"
+      ".cart-drawer--recommendations--container {background: white;}"
     ]
   }
 }
