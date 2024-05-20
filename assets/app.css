@@ -2407,7 +2407,7 @@ h6,
       .thb-full-menu li.menu-item-has-children:hover > .sub-menu {
         visibility: visible;
         opacity: 1; 
-        display: inline-flex;
+        pointer-events: all;
       }
       .thb-full-menu li.menu-item-has-children:hover:before {
         content: attr(data-item-title);
@@ -2470,7 +2470,7 @@ h6,
     min-width: 190px;
     opacity: 0;
     visibility: hidden;
-    display: none;
+    pointer-events: none;
   }
     .thb-full-menu .sub-menu a:not(.text-button):after {
       top: calc(100% - 3px); }
