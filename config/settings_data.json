@@ -1107,7 +1107,8 @@
   "platform_customizations": {
     "custom_css": [
       ".product-card-title {color: black;}",
-      ".price {font-weight: 400;}"
+      ".price {font-weight: 400;}",
+      ".cart-drawer--recommendations--container{background:white;}"
     ]
   }
 }
