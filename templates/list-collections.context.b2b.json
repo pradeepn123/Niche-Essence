@@ -1,8 +1,0 @@
-{
-  "parent": "list-collections.json",
-  "context": {
-    "b2b": true
-  },
-  "sections": {
-  }
-}
